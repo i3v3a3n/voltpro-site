@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<title>Контакти - VoltPro</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="logo">VoltPro</div>
+  <div class="work-zone" id="work-zone">📍 София | Слънчев бряг / Несебър</div>
+  <nav>
+    <a href="index.html" class="nav-link" id="nav-home">Начало</a>
+    <a href="services.html" class="nav-link" id="nav-services">Услуги</a>
+    <a href="b2b.html" class="nav-link" id="nav-b2b">B2B</a>
+    <a href="emergency.html" class="nav-link" id="nav-emergency">24/7 Аварийни</a>
+    <a href="about.html" class="nav-link" id="nav-about">За нас</a>
+    <a href="contact.html" class="nav-link" id="nav-contact">Контакти</a>
+  </nav>
+  <div class="lang">
+    <button onclick="setLang('bg')">BG</button>
+    <button onclick="setLang('en')">EN</button>
+    <button onclick="setLang('ru')">RU</button>
+  </div>
+</header>
+
+<main>
+  <section class="page-title">
+    <h1 id="contact-title">Контакти</h1>
+    <p id="contact-text">Свържете се с нас за оферта или спешен ремонт.</p>
+  </section>
+
+  <section class="contact-info">
+    <div class="info-item">
+      <h3 id="contact-phone-label">Телефон</h3>
+      <p><a href="tel:+359879423059">0879 423 059</a></p>
+    </div>
+    <div class="info-item">
+      <h3 id="contact-email-label">Email</h3>
+      <p><a href="mailto:ag.serviccess@gmail.com">ag.serviccess@gmail.com</a></p>
+    </div>
+  </section>
+
+  <section class="contact-form">
+    <h3 id="form-title">Форма за запитване</h3>
+    <form>
+      <input type="text" placeholder="Име" id="name">
+      <input type="email" placeholder="Email" id="email">
+      <input type="text" placeholder="Фирма / Обект (по избор)" id="company">
+      <textarea placeholder="Съобщение" id="message"></textarea>
+      <button type="submit" id="form-btn">Изпрати</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+ <div>
+  <span id="footer-phone-label">Телефон:</span>
+  <a href="tel:+359879423059" id="footer-phone-number">0879 423 059</a>
+</div>
+  <div>
+  <span id="footer-email-label">Email:</span>
+  <a href="mailto:ag.serviccess@gmail.com">ag.serviccess@gmail.com</a>
+  </div>
+  
+</footer>
+
+
+<script src="lang.js"></script>
+</body>
+</html>

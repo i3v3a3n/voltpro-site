@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<title>VoltPro - Електроуслуги</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="logo">VoltPro</div>
+  <div class="work-zone" id="work-zone">
+    📍 София | Слънчев бряг / Несебър
+  </div>
+  <nav>
+    <a href="index.html" class="nav-link" id="nav-home">Начало</a>
+    <a href="services.html" class="nav-link" id="nav-services">Услуги</a>
+    <a href="b2b.html" class="nav-link" id="nav-b2b">B2B</a>
+    <a href="emergency.html" class="nav-link" id="nav-emergency">24/7 Аварийни</a>
+    <a href="about.html" class="nav-link" id="nav-about">За нас</a>
+    <a href="contact.html" class="nav-link" id="nav-contact">Контакти</a>
+  </nav>
+  <div class="lang">
+    <button onclick="setLang('bg')">BG</button>
+    <button onclick="setLang('en')">EN</button>
+    <button onclick="setLang('ru')">RU</button>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <h1 id="hero-title">Професионални електроуслуги</h1>
+    <p id="hero-text">Работим в София и по Южното Черноморие (Слънчев бряг / Несебър).</p>
+    <div class="hero-buttons">
+      <a href="services.html" class="btn" id="btn-services">Услуги</a>
+      <a href="b2b.html" class="btn" id="btn-b2b">B2B</a>
+      <a href="emergency.html" class="btn" id="btn-emergency">24/7 Аварийни</a>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <h3 id="f1-title">Бърза реакция</h3>
+      <p id="f1-text">Аварийни ремонти и спешни услуги 24/7.</p>
+    </div>
+    <div class="feature">
+      <h3 id="f2-title">За дома и бизнеса</h3>
+      <p id="f2-text">Услуги за частни клиенти и B2B (фирми, хотели, молове).</p>
+    </div>
+    <div class="feature">
+      <h3 id="f3-title">Професионално качество</h3>
+      <p id="f3-text">Гарантирано качество и безопасност на работа.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div>
+  <span id="footer-phone-label">Телефон:</span>
+  <a href="tel:+359879423059" id="footer-phone-number">0879 423 059</a>
+</div>
+
+  <div>
+  <span id="footer-email-label">Email:</span>
+  <a href="mailto:ag.serviccess@gmail.com">ag.serviccess@gmail.com</a>
+  </div>
+
+</footer>
+
+<script src="lang.js"></script>
+</body>
+</html>

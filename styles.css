@@ -1,0 +1,202 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f7f7f7;
+  color: #222;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.work-zone {
+  font-size: 14px;
+  color: #555;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+}
+
+.lang button {
+  margin-left: 8px;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+}
+
+.hero {
+  padding: 60px 30px;
+  text-align: center;
+  background: #fff;
+}
+
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 12px 20px;
+  text-decoration: none;
+  background: #007bff;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 30px;
+  gap: 20px;
+}
+
+.feature {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  width: 30%;
+  text-align: center;
+}
+
+.page-title {
+  padding: 40px 30px;
+  background: #fff;
+  text-align: center;
+}
+
+.service-list,
+.b2b-list,
+.emergency-list,
+.about-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px;
+  justify-content: center;
+}
+
+.service, .b2b-item, .emergency-item, .about-item {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  width: 45%;
+}
+
+.cta {
+  padding: 30px;
+  text-align: center;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+}
+
+.info-item {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.contact-form {
+  background: #fff;
+  padding: 30px;
+  margin: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+}
+
+.contact-form button {
+  padding: 12px 20px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+.nav-link.active {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 4px;
+}
+@media (max-width: 768px) {
+
+  header {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .features {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .feature {
+    width: 100%;
+  }
+
+  .service,
+  .b2b-item,
+  .emergency-item,
+  .about-item {
+    width: 100%;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .hero {
+    padding: 40px 20px;
+  }
+
+  .btn {
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+  }
+}
