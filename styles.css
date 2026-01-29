@@ -11,15 +11,11 @@ header {
   justify-content: space-between;
   padding: 15px 30px;
   background: #fff;
-  border-bottom: 1px solid #ddd;
+  border: none !important;
   position: sticky;
   top: 0;
   z-index: 1000;
-}
 
-.logo {
-  font-weight: bold;
-  font-size: 24px;
 }
 
 .work-zone {
@@ -167,6 +163,7 @@ footer {
   nav {
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 100%;
   }
 
   .features {
@@ -200,3 +197,129 @@ footer {
     width: 80%;
   }
 }
+
+/* === New dark header over slider === */
+header {
+  background: transparent !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  box-sizing: border-box;
+}
+
+header img {
+  background: transparent !important;
+  box-shadow: none;
+  height: 110px;   /* пробвай 110 или 120 */
+  width: auto;
+  background: transparent !important;
+}
+
+
+header nav a,
+.lang-switch a {
+  color: #fff !important;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+header nav a:hover,
+.lang-switch a:hover {
+  color: #ffd000 !important;
+}
+nav a { color:#fff !important; }
+html, body {
+  overflow-x: hidden;
+}
+header img {
+  background: transparent !important;
+  box-shadow: none;
+}
+header {
+  background: transparent !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.site-logo {
+  height: 80px;   /* можеш и 140px ако искаш по-голямо */
+  width: auto;
+  background: transparent;
+  display: block;
+}
+.main-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  /*padding: 25px 0px;*/
+  background: transparent !important;
+  border: none !important;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+ margin-left: 60px;
+}
+
+.main-nav {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  /*display: flex;*/
+  /*gap: 28px;*/
+}
+
+.main-nav a {
+  font-weight: 700 !important;
+  color: #fff !important;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.main-nav a:hover {
+  color: #ffd000 !important;
+}
+
+.right-zone {
+  position: absolute;
+  right: 60px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.phone {
+  margin-right: 80px;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  font-size: 20px;
+  text-decoration: none;
+}
+.phone:hover {
+  color: #ffd000;
+}
+.lang-switch a {
+  color: #fff !important;
+  text-decoration: none;
+  margin-left: 10px;
+  font-weight: 600;    /*po iasni*/
+  font-size: 13px;
+  letter-spacing: 1.2px;
+}
+
+.lang-switch a:hover {
+  color: #ffd000 !important;
+}
+
