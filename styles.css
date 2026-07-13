@@ -1,3 +1,10 @@
+html,
+body{
+    margin:0;
+    height:100%;
+    font-family:Arial,sans-serif;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -322,4 +329,150 @@ header {
 .lang-switch a:hover {
   color: #ffd000 !important;
 }
+/* ===== Hero Slider =====
 
+.slider{
+    position:fixed;
+    inset:0;
+    overflow:hidden;
+    z-index:-2;
+}
+.slide{
+
+    position:absolute;
+    inset:0;
+
+    background-size:cover;
+    background-position:center;
+
+    opacity:0;
+
+    animation-name:hero;
+    animation-duration:18s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:infinite;
+}
+
+.slide1{
+    background-image:url("bg1.jpg");
+    animation-delay:0s;
+}
+
+.slide2{
+    background-image:url("bg2.jpg");
+    animation-delay:6s;
+}
+
+.slide3{
+    background-image:url("bg3.jpg");
+    animation-delay:12s;
+}
+
+.overlay{
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.55);
+    z-index:2;
+}
+
+@keyframes hero{
+
+    0%{
+        opacity:0;
+        transform:scale(1);
+    }
+
+    8%{
+        opacity:1;
+    }
+
+    30%{
+        opacity:1;
+        transform:scale(1.05);
+    }
+
+    38%{
+        opacity:0;
+        transform:scale(1.08);
+    }
+
+    100%{
+        opacity:0;
+        transform:scale(1.08);
+    }
+}
+*/
+
+/*==========================
+      TRUE CROSSFADE
+==========================*/
+
+.slider{
+    position:fixed;
+    inset:0;
+    overflow:hidden;
+    z-index:-2;
+}
+
+.slide{
+
+    position:absolute;
+    inset:0;
+
+    background-size:cover;
+    background-position:center;
+
+    opacity:0;
+
+    transform:scale(1);
+
+    transition:
+        opacity 2s ease,
+        transform 8s linear;
+}
+
+.slide.active{
+
+    opacity:1;
+
+    transform:scale(1.10);
+}
+
+.slide1{
+    background-image:url("bg1.jpg");
+}
+
+.slide2{
+    background-image:url("bg2.jpg");
+}
+
+.slide3{
+    background-image:url("bg3.jpg");
+}
+
+.overlay{
+
+    position:absolute;
+    inset:0;
+
+    background:rgba(0,0,0,.55);
+
+    z-index:5;
+}
+.hero-text{
+    position:absolute;
+    left:60px;
+    bottom:20%;
+    color:#fff;
+    z-index:20;
+}
+
+.hero-text h1{
+    font-size:48px;
+    margin:0;
+}
+
+.hero-text p{
+    font-size:20px;
+    margin-top:10px;
+}

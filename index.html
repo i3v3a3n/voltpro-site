@@ -5,6 +5,7 @@
 <title>VoltPro – Електроуслуги</title>
 <link rel="stylesheet" href="styles.css">
 <script src="lang.js" defer></script>
+<!--
 <style>
 html,body{margin:0;height:100%;font-family:Arial,sans-serif;}
 .hero-slider{
@@ -29,12 +30,19 @@ nav a:hover{color:#ffd000;}
 .hero-text{position:absolute;bottom:20%;left:60px;color:#fff;z-index:5;}
 .hero-text h1{font-size:48px;margin:0;}
 .hero-text p{font-size:18px;}
-</style>
+</style>    
+-->
 </head>
+
 <body>
 
-<div class="hero-slider"></div>
-<div class="overlay"></div>
+<div class="slider">
+    <div class="slide slide1"></div>
+    <div class="slide slide2"></div>
+    <div class="slide slide3"></div>
+
+    <div class="overlay"></div>
+</div>
 
 <header class="main-header">
 
@@ -69,6 +77,26 @@ nav a:hover{color:#ffd000;}
   <h1 id="hero-title">Професионални електроуслуги</h1>
   <p id="hero-text">София • Слънчев бряг • Несебър</p>
 </div>
+
+<script>
+
+const slides=document.querySelectorAll(".slide");
+
+let current=0;
+
+slides[current].classList.add("active");
+
+setInterval(()=>{
+
+    slides[current].classList.remove("active");
+
+    current=(current+1)%slides.length;
+
+    slides[current].classList.add("active");
+
+},6000); 
+
+</script>
 
 </body>
 </html>
