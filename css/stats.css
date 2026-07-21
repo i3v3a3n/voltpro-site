@@ -1,0 +1,48 @@
+/* ==========================================
+   STATS
+========================================== */
+
+.stats{
+
+    padding:100px 20px;
+}
+
+.stats-grid{
+
+    width:min(var(--container),92%);
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:30px;
+}
+
+.stat{
+
+    text-align:center;
+
+    background:rgba(255,255,255,.05);
+
+    padding:40px;
+
+    border-radius:18px;
+}
+
+.stat-number{
+
+    font-size:48px;
+
+    font-weight:bold;
+
+    color:var(--primary);
+
+    margin-bottom:10px;
+}
+
+.stat-title{
+
+    color:var(--gray);
+}

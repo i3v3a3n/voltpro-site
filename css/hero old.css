@@ -1,0 +1,94 @@
+/* ==========================================
+   HERO
+========================================== */
+
+.hero{
+    position:relative;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:0 20px;
+}
+
+.hero-content{
+    max-width:900px;
+    z-index:2;
+}
+
+.hero-text{
+    position:absolute;
+    left:60px;
+    bottom:20%;
+    z-index:20;
+    color:#fff;
+    max-width:700px;
+}
+
+.hero-subtitle{
+    display:block;
+    font-size:18px;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    margin-bottom:15px;
+    opacity:.9;
+}
+.hero-text h1{
+    font-size:clamp(48px,6vw,72px);
+    font-weight:700;
+    line-height:1.1;
+    margin:0 0 20px;
+    color:#fff;
+    text-shadow:0 4px 20px rgba(0,0,0,.45);
+}
+
+.hero-text p{
+    font-size:clamp(18px,2vw,24px);
+    margin:0 0 35px;
+    color:#fff;
+    opacity:.95;
+}
+/* ==========================================
+   HERO BUTTONS
+========================================== */
+
+.hero-buttons{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+}
+
+.btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    min-width:220px;
+    height:56px;
+    padding:0 32px;
+    border-radius:50px;
+    font-size:16px;
+    font-weight:600;
+    transition:all .3s ease;
+}
+
+.btn-primary{
+    background:var(--primary);
+    color:#111;
+}
+
+.btn-primary:hover{
+    background:var(--primary-hover);
+    transform:translateY(-2px);
+}
+
+.btn-secondary{
+    border:2px solid #fff;
+    color:#fff;
+}
+
+.btn-secondary:hover{
+    background:#fff;
+    color:#111;
+}

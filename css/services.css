@@ -1,0 +1,65 @@
+/* ==========================================
+   SERVICES
+========================================== */
+
+.services{
+    padding:100px 20px;
+}
+
+.services-grid{
+    width:min(var(--container),92%);
+    margin:0 auto;
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+}
+
+.service-card{
+    background:rgba(255,255,255,.05);
+    backdrop-filter:blur(8px);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:18px;
+
+    padding:35px;
+
+    transition:.35s ease;
+}
+
+.service-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:var(--primary);
+
+    box-shadow:0 20px 45px rgba(0,0,0,.35);
+}
+
+.service-card img{
+
+    width:70px;
+
+    margin-bottom:25px;
+}
+
+.service-card h3{
+
+    font-size:26px;
+
+    color:#fff;
+
+    margin-bottom:15px;
+}
+
+.service-card p{
+
+    color:var(--gray-medium);
+
+    line-height:1.8;
+}
+.service-card .btn{
+
+    margin-top:30px;
+}

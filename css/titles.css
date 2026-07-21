@@ -1,0 +1,34 @@
+/* ==========================================
+   TITLES
+========================================== */
+
+.section-title{
+    text-align:center;
+    font-size:clamp(32px,4vw,48px);
+    color:#fff;
+    margin-bottom:20px;
+}
+
+.section-subtitle{
+    text-align:center;
+    color:var(--gray);
+    font-size:18px;
+    max-width:800px;
+    margin:0 auto 60px;
+}
+/* ==========================================
+   DIVIDER
+========================================== */
+
+.divider{
+
+    width:120px;
+
+    height:4px;
+
+    background:var(--primary);
+
+    margin:25px auto 50px;
+
+    border-radius:20px;
+}
