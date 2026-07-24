@@ -10,10 +10,12 @@ const translations = {
     "work-zone": "📍 София / Слънчев бряг / Несебър",
 
     // NAV
+
     "nav-home": "Начало",
     "nav-services": "Услуги",
-    "nav-b2b": "B2B",
-    "nav-emergency": "24/7 Аварийни",
+    
+    "nav-emergency": "Аварийни",
+    "nav-projects": "Обекти",
     "nav-about": "За нас",
     "nav-contact": "Контакти",
 
@@ -21,13 +23,13 @@ const translations = {
     "hero-title": "Професионални електроуслуги",
     "hero-text": "Работим в София и по Южното Черноморие.",
     "btn-services": "Услуги",
-    "btn-b2b": "B2B",
-    "btn-emergency": "24/7 Аварийни",
+    
+    "btn-emergency": "Аварийни",
 
     "f1-title": "Бърза реакция",
-    "f1-text": "Аварийни ремонти 24/7.",
-    "f2-title": "За дома и бизнеса",
-    "f2-text": "B2C и B2B услуги.",
+    "f1-text": "Аварийни ремонти",
+    "f2-title": "За дома и бизнеса заглавие",
+    "f2-text": "Текст",
     "f3-title": "Професионално качество",
     "f3-text": "Гарантирана безопасност.",
 
@@ -53,22 +55,8 @@ const translations = {
     "about3-title": "Реакция",
     "about3-text": "Бързо обслужване.",
 
-    // B2B
-    "b2b-title": "B2B услуги",
-    "b2b-text": "За хотели и бизнес.",
-    "b2b1-title": "Поддръжка",
-    "b2b1-text": "Договорна поддръжка.",
-    "b2b2-title": "Хотели",
-    "b2b2-text": "Сезонна поддръжка.",
-    "b2b3-title": "Обекти",
-    "b2b3-text": "Търговски обекти.",
-    "b2b4-title": "Офиси",
-    "b2b4-text": "Офис сгради.",
-    "b2b-cta-title": "Искате оферта?",
-    "b2b-cta-btn": "Свържете се",
-
     // EMERGENCY
-    "em-title": "24/7 Аварийни",
+    "em-title": "Аварийни",
     "em-text": "Спешна помощ.",
     "em1-title": "Късо съединение",
     "em1-text": "Незабавна реакция.",
@@ -83,7 +71,17 @@ const translations = {
     "contact-title": "Контакти",
     "contact-text": "Свържете се с нас.",
     "form-title": "Форма",
-    "form-btn": "Изпрати"
+    "form-btn": "Изпрати",
+
+    // Bottom buttons
+	"btn-call": "📞 Обади се",
+	"btn-our-services": "Нашите услуги",
+
+	"modal-title": "Свържете се с VoltPro",
+	"modal-text": "Изберете начин за връзка.",
+	"modal-call": "📞 Обади се",
+	"modal-email": "✉️ Email",
+	"modal-copy": "📋 Копирай номера",
   },
 
   en: {
@@ -98,21 +96,21 @@ const translations = {
 
     "nav-home": "Home",
     "nav-services": "Services",
-    "nav-b2b": "B2B",
-    "nav-emergency": "24/7 Emergency",
+    "nav-emergency": "Emergency",
+    "nav-projects": "Projects",
     "nav-about": "About",
     "nav-contact": "Contact",
 
     "hero-title": "Professional Electrical Services",
     "hero-text": "Operating in Sofia and the Southern Black Sea Coast.",
     "btn-services": "Services",
-    "btn-b2b": "B2B",
-    "btn-emergency": "24/7 Emergency",
+   
+    "btn-emergency": "Emergency",
 
     "f1-title": "Fast Response",
-    "f1-text": "Emergency service 24/7.",
+    "f1-text": "Emergency service",
     "f2-title": "Home & Business",
-    "f2-text": "Residential and B2B.",
+    "f2-text": "Home & Business",
     "f3-title": "Professional Quality",
     "f3-text": "Guaranteed safety.",
 
@@ -136,20 +134,7 @@ const translations = {
     "about3-title": "Speed",
     "about3-text": "Fast service.",
 
-    "b2b-title": "B2B Services",
-    "b2b-text": "Business solutions.",
-    "b2b1-title": "Maintenance",
-    "b2b1-text": "Contract maintenance.",
-    "b2b2-title": "Hotels",
-    "b2b2-text": "Seasonal service.",
-    "b2b3-title": "Shops",
-    "b2b3-text": "Commercial buildings.",
-    "b2b4-title": "Offices",
-    "b2b4-text": "Office buildings.",
-    "b2b-cta-title": "Need an offer?",
-    "b2b-cta-btn": "Contact us",
-
-    "em-title": "24/7 Emergency",
+    "em-title": "Emergency",
     "em-text": "Immediate response.",
     "em1-title": "Short circuits",
     "em1-text": "Immediate fix.",
@@ -163,7 +148,17 @@ const translations = {
     "contact-title": "Contact",
     "contact-text": "Get in touch.",
     "form-title": "Form",
-    "form-btn": "Send"
+    "form-btn": "Send",
+	// Bottom buttons
+	"btn-call": "📞 Call",
+	"btn-our-services": "Our Services",
+
+	"modal-title": "Contact VoltPro",
+	"modal-text": "Choose how to contact us.",
+	"modal-call": "📞 Call",
+	"modal-email": "✉️ Email",
+	"modal-copy": "📋 Copy Number",
+
   },
 
   ru: {
@@ -178,19 +173,19 @@ const translations = {
 
     "nav-home": "Главная",
     "nav-services": "Услуги",
-    "nav-b2b": "B2B",
-    "nav-emergency": "24/7 Аварийные",
+    "nav-emergency": "Аварийные",
+    "nav-projects": "Наши работы",
     "nav-about": "О нас",
     "nav-contact": "Контакты",
 
     "hero-title": "Профессиональные электросервисы",
     "hero-text": "Работаем в Софии и на Южном побережье.",
     "btn-services": "Услуги",
-    "btn-b2b": "B2B",
-    "btn-emergency": "24/7 Аварийные",
+   
+    "btn-emergency": "Аварийные",
 
     "f1-title": "Быстрая реакция",
-    "f1-text": "Помощь 24/7.",
+    "f1-text": "Помощь",
     "f2-title": "Дом и бизнес",
     "f2-text": "Частные и бизнес.",
     "f3-title": "Качество",
@@ -216,20 +211,7 @@ const translations = {
     "about3-title": "Скорость",
     "about3-text": "Быстро.",
 
-    "b2b-title": "B2B услуги",
-    "b2b-text": "Для бизнеса.",
-    "b2b1-title": "Поддержка",
-    "b2b1-text": "Договоры.",
-    "b2b2-title": "Отели",
-    "b2b2-text": "Сезонно.",
-    "b2b3-title": "Магазины",
-    "b2b3-text": "Коммерция.",
-    "b2b4-title": "Офисы",
-    "b2b4-text": "Бизнес здания.",
-    "b2b-cta-title": "Нужна оферта?",
-    "b2b-cta-btn": "Связаться",
-
-    "em-title": "24/7 Аварийные",
+    "em-title": "Аварийные",
     "em-text": "Срочная помощь.",
     "em1-title": "Короткое замыкание",
     "em1-text": "Быстро.",
@@ -243,7 +225,18 @@ const translations = {
     "contact-title": "Контакты",
     "contact-text": "Свяжитесь с нами.",
     "form-title": "Форма",
-    "form-btn": "Отправить"
+    "form-btn": "Отправить",
+
+     // Bottom buttons
+	"btn-call": "📞 Позвонить",
+	"btn-our-services": "Наши услуги",
+
+	"modal-title": "Свяжитесь с VoltPro",
+	"modal-text": "Выберите способ связи.",
+	"modal-call": "📞 Позвонить",
+	"modal-email": "✉️ Email",
+	"modal-copy": "📋 Копировать номер",
+
   }
 };
 
@@ -287,6 +280,7 @@ document.title = {
       message.placeholder = "Сообщение";
     }
   }
+document.documentElement.style.visibility = "visible";
 }
 
 // Active menu
