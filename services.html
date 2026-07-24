@@ -2,67 +2,262 @@
 <html lang="bg">
 <head>
 <meta charset="UTF-8">
-<title>Услуги - VoltPro</title>
-<link rel="stylesheet" href="styles.css">
+<title>VoltPro – Електроуслуги</title>
+<link rel="stylesheet" href="css/styles.css">
+
+<script>
+(function () {
+    const lang = localStorage.getItem("siteLang") || "bg";
+    document.documentElement.lang = lang;
+    document.documentElement.style.visibility = "hidden";
+})();
+</script>
+
+<script src="js/lang.js" defer></script>
+<script src="js/script.js" defer></script>
+
 </head>
+
 <body>
-<header>
-  <div class="logo">VoltPro</div>
-  <div class="work-zone" id="work-zone">📍 София | Слънчев бряг / Несебър</div>
-  <nav>
-    <a href="index.html" class="nav-link" id="nav-home">Начало</a>
-    <a href="services.html" class="nav-link" id="nav-services">Услуги</a>
-    <a href="b2b.html" class="nav-link" id="nav-b2b">B2B</a>
-    <a href="emergency.html" class="nav-link" id="nav-emergency">24/7 Аварийни</a>
-    <a href="about.html" class="nav-link" id="nav-about">За нас</a>
-    <a href="contact.html" class="nav-link" id="nav-contact">Контакти</a>
-  </nav>
-  <div class="lang">
-    <button onclick="setLang('bg')">BG</button>
-    <button onclick="setLang('en')">EN</button>
-    <button onclick="setLang('ru')">RU</button>
-  </div>
-</header>
 
-<main>
-  <section class="page-title">
-    <h1 id="services-title">Услуги</h1>
-    <p id="services-text">Услуги за дома и бизнеса (B2C + B2B).</p>
-  </section>
+<div class="slider">
+    <div class="slide slide1"></div>
+    <div class="slide slide2"></div>
+    <div class="slide slide3"></div>
 
-  <section class="service-list">
-    <div class="service">
-      <h3 id="s1-title">Ремонт на електроинсталации</h3>
-      <p id="s1-text">Ремонт на контакти, ключове, предпазители и табла.</p>
-    </div>
-    <div class="service">
-      <h3 id="s2-title">Монтаж на осветление</h3>
-      <p id="s2-text">Монтаж на LED осветление, прожектори и вътрешно осветление.</p>
-    </div>
-    <div class="service">
-      <h3 id="s3-title">Изграждане на нови инсталации</h3>
-      <p id="s3-text">Изграждане на електроинсталации за нови обекти и ремонти.</p>
-    </div>
-    <div class="service">
-      <h3 id="s4-title">Подмяна на табла</h3>
-      <p id="s4-text">Подмяна и ремонт на електрически табла и защити.</p>
-    </div>
-  </section>
-</main>
-
-<footer>
-  <div>
-  <span id="footer-phone-label">Телефон:</span>
-  <a href="tel:+359879423059" id="footer-phone-number">0879 423 059</a>
+    <div class="overlay"></div>
 </div>
 
-  <div>
-  <span id="footer-email-label">Email:</span>
-  <a href="mailto:ag.serviccess@gmail.com">ag.serviccess@gmail.com</a>
+<header class="main-header">
+
+  <a href="index.html" class="logo-link" title="VoltPro Електроуслуги">
+    <img src="images/logo.png" class="site-logo" alt="VoltPro">
+  </a>
+
+  <nav class="main-nav">
+    <a href="services.html" id="nav-services">Услуги</a>
+    
+    <a href="emergency.html" id="nav-emergency">Аварийни</a>
+    <a href="projects.html" id="nav-projects">Обекти</a>
+    <a href="about.html" id="nav-about">За нас</a>
+    <a href="contact.html" id="nav-contact">Контакти</a>
+    
+   
+
+  </nav>
+
+  <div class="right-zone">
+      <a href="tel:+359879423059"            class="phone" title="Свържи се с VoltPro">0879 423 059</a>
+    <div class="lang-switch">
+      <a href="#" onclick="setLang('bg')">BG</a>
+      <a href="#" onclick="setLang('en')">EN</a>
+      <a href="#" onclick="setLang('ru')">RU</a>
+    </div>
   </div>
 
-</footer>
+</header>
 
-<script src="lang.js"></script>
+
+<main class="services-page">
+
+    <section class="page-header">
+
+        <div class="container">
+
+            <h1 data-i18n="services-title">
+                Електроуслуги
+            </h1>
+
+            <p data-i18n="services-subtitle">
+                Професионални електроуслуги за домове, офиси и бизнес обекти.
+            </p>
+
+        </div>
+
+    </section>
+
+    <section class="services">
+
+        <div class="container">
+
+            <div class="services-grid">
+
+                <a href="projects.html#emergency"
+   			class="service-card"
+   			id="service-emergency"
+   			data-category="emergency">
+
+                    <div class="service-icon">⚡</div>
+
+                    <h2 data-i18n="service-emergency-title">
+                          Аварийни ремонти
+		    </h2>
+
+                    <p data-i18n="service-emergency-text">
+                          Бързо отстраняване на електрически аварии.
+		    </p>
+
+                </a>
+
+                <a href="projects.html#lighting"
+		   class="service-card"
+		   id="service-lighting"
+		   data-category="lighting">
+
+		    <div class="service-icon">💡</div>
+
+		    <h2 data-i18n="service-lighting-title">
+		        Осветление
+		    </h2>
+
+		    <p data-i18n="service-lighting-text">
+		        Монтаж и ремонт на всички видове осветление.
+		    </p>
+		</a>
+
+                <a href="projects.html#contacts"
+		   class="service-card"
+		   id="service-contacts"
+		   data-category="contacts">
+
+		    <div class="service-icon">🔌</div>
+
+		    <h2 data-i18n="service-contacts-title">
+		        Контакти и ключове
+		    </h2>
+
+		    <p data-i18n="service-contacts-text">
+		        Смяна, монтаж и диагностика.
+		    </p>
+
+		</a>
+
+                <a href="projects.html#panels"
+		   class="service-card"
+		   id="service-panels"
+		   data-category="panels">
+
+		    <div class="service-icon">📋</div>
+
+		    <h2 data-i18n="service-panels-title">
+		        Електрически табла
+		    </h2>
+
+		    <p data-i18n="service-panels-text">
+		        Изграждане, ремонт и модернизация.
+		    </p>
+
+		</a>
+
+                <a href="projects.html#homes"
+		   class="service-card"
+		   id="service-homes"
+		   data-category="homes">
+
+		    <div class="service-icon">🏠</div>
+
+		    <h2 data-i18n="service-homes-title">
+		        Домове
+		    </h2>
+
+		    <p data-i18n="service-homes-text">
+		        Цялостни електроуслуги за жилища.
+		    </p>
+
+		</a>
+
+                <a href="projects.html#business"
+		   class="service-card"
+		   id="service-business"
+		   data-category="business">
+
+		    <div class="service-icon">🏢</div>
+
+		    <h2 data-i18n="service-business-title">
+		        Бизнес
+		    </h2>
+
+		    <p data-i18n="service-business-text">
+		        Електроуслуги за офиси и търговски обекти.
+		    </p>
+
+		</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="services-cta">
+
+        <div class="container">
+
+            <h2 data-i18n="services-cta-title">
+                Нуждаете се от електротехник?
+            </h2>
+
+            <p data-i18n="services-cta-text">
+                Свържете се с нас още днес.
+            </p>
+
+            <a href="#" id="callBtn" class="btn btn-primary">
+                📞 Обади се
+            </a>
+
+        </div>
+
+    </section>
+
+</main>
+
+<script>
+
+const slides=document.querySelectorAll(".slide");
+
+let current=0;
+
+slides[current].classList.add("active");
+
+setInterval(()=>{
+
+    slides[current].classList.remove("active");
+
+    current=(current+1)%slides.length;
+
+    slides[current].classList.add("active");
+
+},6000); 
+
+</script>
+<div id="contactModal" class="contact-modal">
+
+    <div class="contact-box">
+
+        <span class="close-modal">&times;</span>
+
+        <h2 id="modal-title">Свържете се с VoltPro</h2>
+
+        <p id="modal-text">Изберете начин за връзка.</p>
+
+        <a href="tel:+359879423059" class="btn btn-primary">
+    		<span id="modal-call">📞 Обади се</span>
+	</a>
+
+        <a href="viber://chat?number=%2B359879423059" class="btn btn-secondary">
+            💜 Viber
+        </a>
+
+        <a href="mailto:voltpro.contacts@gmail.com" class="btn btn-secondary">
+           <span id="modal-email">✉️ Email</span>
+        </a>
+
+       <button id="copyNumber" class="btn btn-secondary">
+    	   <span id="modal-copy">📋 Копирай номера</span>
+       </button>
+
+    </div>
+
+</div>
 </body>
 </html>

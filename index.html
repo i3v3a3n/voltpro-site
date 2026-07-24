@@ -4,6 +4,15 @@
 <meta charset="UTF-8">
 <title>VoltPro – Електроуслуги</title>
 <link rel="stylesheet" href="css/styles.css">
+
+<script>
+(function () {
+    const lang = localStorage.getItem("siteLang") || "bg";
+    document.documentElement.lang = lang;
+    document.documentElement.style.visibility = "hidden";
+})();
+</script>
+
 <script src="js/lang.js" defer></script>
 <script src="js/script.js" defer></script>
 
@@ -27,12 +36,13 @@
 
   <nav class="main-nav">
     <a href="services.html" id="nav-services">Услуги</a>
-    <a href="b2b.html" id="nav-b2b">B2B</a>
-    <a href="emergency.html" id="nav-emergency">24/7 Аварийни</a>
+    
+    <a href="emergency.html" id="nav-emergency">Аварийни</a>
+    <a href="projects.html" id="nav-projects">Обекти</a>
     <a href="about.html" id="nav-about">За нас</a>
     <a href="contact.html" id="nav-contact">Контакти</a>
-    <a href="projects.html" id="nav-projects">Проекти</a>
-    <a href="certificates.html" id="nav-certificates">Сертификати</a>
+    
+   
 
   </nav>
 
@@ -59,20 +69,19 @@
     </h1>
 
     <p id="hero-text">
-        Домове • Офиси • Индустриални обекти
+         Работим в София и по Южното Черноморие.
     </p>
 
     <div class="hero-buttons">
 
         <a href="#" id="callBtn" class="btn btn-primary">
-           📞 Обади се
+    		<span id="btn-call">📞 Обади се</span>
 	</a>
 
-        <a href="services.html"
-           class="btn btn-secondary"
-           id="hero-services">
-            Нашите услуги
-        </a>
+        	<a href="services.html"
+   			class="btn btn-secondary">
+    			<span id="btn-our-services">Нашите услуги</span>
+		</a>
 
     </div>
 
@@ -103,25 +112,25 @@ setInterval(()=>{
 
         <span class="close-modal">&times;</span>
 
-        <h2>Свържете се с VoltPro</h2>
+        <h2 id="modal-title">Свържете се с VoltPro</h2>
 
-        <p>Изберете начин за връзка.</p>
+        <p id="modal-text">Изберете начин за връзка.</p>
 
         <a href="tel:+359879423059" class="btn btn-primary">
-            📞 Обади се
-        </a>
+    		<span id="modal-call">📞 Обади се</span>
+	</a>
 
         <a href="viber://chat?number=%2B359879423059" class="btn btn-secondary">
             💜 Viber
         </a>
 
         <a href="mailto:voltpro.contacts@gmail.com" class="btn btn-secondary">
-            ✉️ Email
+           <span id="modal-email">✉️ Email</span>
         </a>
 
-        <button id="copyNumber" class="btn btn-secondary">
-            📋 Копирай номера
-        </button>
+       <button id="copyNumber" class="btn btn-secondary">
+    	   <span id="modal-copy">📋 Копирай номера</span>
+       </button>
 
     </div>
 
