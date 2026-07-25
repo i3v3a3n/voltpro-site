@@ -101,3 +101,32 @@
 
     user-select:none;
 }
+
+
+.qr-section{
+    display:none;
+    width:100%;
+    text-align:center;
+    margin:20px auto;
+}
+
+.qr-section img{
+    width:220px;
+    height:220px;
+    display:block;
+    margin:0 auto;
+}
+
+.phone-number{
+    margin-top:15px;
+    font-size:24px;
+    font-weight:700;
+    color:var(--primary);
+    letter-spacing:1px;
+    text-align:center;
+}
+
+
+
+
+
