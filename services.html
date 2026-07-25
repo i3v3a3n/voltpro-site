@@ -64,11 +64,11 @@
 
         <div class="container">
 
-            <h1 data-i18n="services-title">
+            <h1 id="services-title">
                 Електроуслуги
             </h1>
 
-            <p data-i18n="services-subtitle">
+            <p id="services-subtitle">
                 Професионални електроуслуги за домове, офиси и бизнес обекти.
             </p>
 
@@ -89,11 +89,11 @@
 
                     <div class="service-icon">⚡</div>
 
-                    <h2 data-i18n="service-emergency-title">
+                    <h2 id="service-emergency-title">
                           Аварийни ремонти
 		    </h2>
 
-                    <p data-i18n="service-emergency-text">
+                    <p id="service-emergency-text">
                           Бързо отстраняване на електрически аварии.
 		    </p>
 
@@ -105,12 +105,12 @@
 		   data-category="lighting">
 
 		    <div class="service-icon">💡</div>
-
-		    <h2 data-i18n="service-lighting-title">
+		    <h2 id="service-lighting-title">
+		    
 		        Осветление
 		    </h2>
 
-		    <p data-i18n="service-lighting-text">
+		    <p id="service-lighting-text">
 		        Монтаж и ремонт на всички видове осветление.
 		    </p>
 		</a>
@@ -122,11 +122,11 @@
 
 		    <div class="service-icon">🔌</div>
 
-		    <h2 data-i18n="service-contacts-title">
+		    <h2 id="service-contacts-title">
 		        Контакти и ключове
 		    </h2>
 
-		    <p data-i18n="service-contacts-text">
+		    <p id="service-contacts-text">
 		        Смяна, монтаж и диагностика.
 		    </p>
 
@@ -139,11 +139,11 @@
 
 		    <div class="service-icon">📋</div>
 
-		    <h2 data-i18n="service-panels-title">
+		    <h2 id="service-panels-title">
 		        Електрически табла
 		    </h2>
 
-		    <p data-i18n="service-panels-text">
+		    <p id="service-panels-text">
 		        Изграждане, ремонт и модернизация.
 		    </p>
 
@@ -156,11 +156,11 @@
 
 		    <div class="service-icon">🏠</div>
 
-		    <h2 data-i18n="service-homes-title">
+		    <h2 id="service-homes-title">
 		        Домове
 		    </h2>
 
-		    <p data-i18n="service-homes-text">
+		    <p id="service-homes-text">
 		        Цялостни електроуслуги за жилища.
 		    </p>
 
@@ -173,11 +173,11 @@
 
 		    <div class="service-icon">🏢</div>
 
-		    <h2 data-i18n="service-business-title">
+		    <h2 id="service-business-title">
 		        Бизнес
 		    </h2>
 
-		    <p data-i18n="service-business-text">
+		    <p id="service-business-text">
 		        Електроуслуги за офиси и търговски обекти.
 		    </p>
 
@@ -193,16 +193,16 @@
 
         <div class="container">
 
-            <h2 data-i18n="services-cta-title">
+            <h2 id="services-cta-title">
                 Нуждаете се от електротехник?
             </h2>
 
-            <p data-i18n="services-cta-text">
+            <p id="services-cta-text">
                 Свържете се с нас още днес.
             </p>
 
             <a href="#" id="callBtn" class="btn btn-primary">
-                📞 Обади се
+                <span id="btn-call">📞 Обади се</span>
             </a>
 
         </div>
@@ -240,9 +240,19 @@ setInterval(()=>{
 
         <p id="modal-text">Изберете начин за връзка.</p>
 
-        <a href="tel:+359879423059" class="btn btn-primary">
+        <a href="#" class="btn btn-primary" id="modalCallBtn">
     		<span id="modal-call">📞 Обади се</span>
 	</a>
+
+	<div id="qrSection" class="qr-section">
+
+   	 <img src="images/phone-qr.png" alt="QR код">
+
+  	  <div class="phone-number">
+    	    +359 879 423 059
+          </div>
+
+	 </div>
 
         <a href="viber://chat?number=%2B359879423059" class="btn btn-secondary">
             💜 Viber
