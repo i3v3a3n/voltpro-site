@@ -11,6 +11,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const callBtn = document.getElementById("callBtn");
     const modal = document.getElementById("contactModal");
 
+const modalCallBtn = document.getElementById("modalCallBtn");
+const qrSection = document.getElementById("qrSection");
+
     if (callBtn && modal) {
 
         callBtn.addEventListener("click", function (e) {
@@ -46,6 +49,10 @@ document.addEventListener("DOMContentLoaded", () => {
         closeBtn.addEventListener("click", function () {
 
             modal.classList.remove("show");
+if (modalCallBtn && qrSection) {
+    modalCallBtn.style.display = "";
+    qrSection.style.display = "none";
+}
 
         });
 
@@ -63,6 +70,10 @@ document.addEventListener("DOMContentLoaded", () => {
             if (e.target === modal) {
 
                 modal.classList.remove("show");
+			if (modalCallBtn && qrSection) {
+    modalCallBtn.style.display = "";
+    qrSection.style.display = "none";
+}
 
             }
 
@@ -74,6 +85,22 @@ document.addEventListener("DOMContentLoaded", () => {
     // ==============================
     // COPY PHONE
     // ==============================
+if (modalCallBtn && qrSection) {
+
+    modalCallBtn.addEventListener("click", function(e){
+
+        if (!/Android|iPhone|iPad|iPod|Windows Phone/i.test(navigator.userAgent)) {
+
+            e.preventDefault();
+
+            modalCallBtn.style.display = "none";
+            qrSection.style.display = "block";
+
+        }
+
+    });
+
+}
 
     const copyBtn = document.getElementById("copyNumber");
 

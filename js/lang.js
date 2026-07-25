@@ -34,16 +34,29 @@ const translations = {
     "f3-text": "Гарантирана безопасност.",
 
     // SERVICES
-    "services-title": "Услуги",
-    "services-text": "Електроуслуги за дома и бизнеса.",
-    "s1-title": "Ремонт на инсталации",
-    "s1-text": "Контакти, ключове, табла.",
-    "s2-title": "Осветление",
-    "s2-text": "LED и вътрешно осветление.",
-    "s3-title": "Нови инсталации",
-    "s3-text": "Изграждане и ремонт.",
-    "s4-title": "Ел. табла",
-    "s4-text": "Подмяна и ремонт.",
+"services-title": "Електроуслуги",
+"services-subtitle": "Професионални електроуслуги за домове, офиси и бизнес обекти.",
+
+"service-emergency-title": "Аварийни ремонти",
+"service-emergency-text": "Бързо отстраняване на електрически аварии.",
+
+"service-lighting-title": "Осветление",
+"service-lighting-text": "Монтаж и ремонт на всички видове осветление.",
+
+"service-contacts-title": "Контакти и ключове",
+"service-contacts-text": "Смяна, монтаж и диагностика.",
+
+"service-panels-title": "Електрически табла",
+"service-panels-text": "Изграждане, ремонт и модернизация.",
+
+"service-homes-title": "Домове",
+"service-homes-text": "Цялостни електроуслуги за жилища.",
+
+"service-business-title": "Бизнес",
+"service-business-text": "Електроуслуги за офиси и търговски обекти.",
+
+"services-cta-title": "Нуждаете се от електротехник?",
+"services-cta-text": "Свържете се с нас още днес.",
 
     // ABOUT
     "about-title": "За нас",
@@ -114,16 +127,30 @@ const translations = {
     "f3-title": "Professional Quality",
     "f3-text": "Guaranteed safety.",
 
-    "services-title": "Services",
-    "services-text": "Electrical services.",
-    "s1-title": "Repairs",
-    "s1-text": "Sockets, switches, panels.",
-    "s2-title": "Lighting",
-    "s2-text": "LED and interior lighting.",
-    "s3-title": "Installations",
-    "s3-text": "New installations.",
-    "s4-title": "Panels",
-    "s4-text": "Repair and replacement.",
+    // SERVICES
+"services-title": "Electrical Services",
+"services-subtitle": "Professional electrical services for homes, offices, and commercial properties.",
+
+"service-emergency-title": "Emergency Repairs",
+"service-emergency-text": "Fast response to electrical faults and emergencies.",
+
+"service-lighting-title": "Lighting",
+"service-lighting-text": "Installation and repair of all types of lighting systems.",
+
+"service-contacts-title": "Sockets & Switches",
+"service-contacts-text": "Replacement, installation, and diagnostics.",
+
+"service-panels-title": "Electrical Panels",
+"service-panels-text": "Installation, repair, and modernization of electrical panels.",
+
+"service-homes-title": "Residential",
+"service-homes-text": "Complete electrical services for houses and apartments.",
+
+"service-business-title": "Commercial",
+"service-business-text": "Electrical services for offices, shops, and commercial premises.",
+
+"services-cta-title": "Need a Professional Electrician?",
+"services-cta-text": "Contact us today.",
 
     "about-title": "About Us",
     "about-text": "Reliable electrical services.",
@@ -191,16 +218,30 @@ const translations = {
     "f3-title": "Качество",
     "f3-text": "Безопасность.",
 
-    "services-title": "Услуги",
-    "services-text": "Электросервисы.",
-    "s1-title": "Ремонт",
-    "s1-text": "Розетки и щиты.",
-    "s2-title": "Освещение",
-    "s2-text": "LED освещение.",
-    "s3-title": "Монтаж",
-    "s3-text": "Новые установки.",
-    "s4-title": "Щиты",
-    "s4-text": "Ремонт и замена.",
+   // SERVICES
+"services-title": "Электроуслуги",
+"services-subtitle": "Профессиональные электромонтажные услуги для домов, офисов и коммерческих объектов.",
+
+"service-emergency-title": "Аварийный ремонт",
+"service-emergency-text": "Быстрое устранение электрических неисправностей и аварий.",
+
+"service-lighting-title": "Освещение",
+"service-lighting-text": "Монтаж и ремонт всех видов освещения.",
+
+"service-contacts-title": "Розетки и выключатели",
+"service-contacts-text": "Замена, установка и диагностика.",
+
+"service-panels-title": "Электрические щиты",
+"service-panels-text": "Монтаж, ремонт и модернизация электрощитов.",
+
+"service-homes-title": "Жилые объекты",
+"service-homes-text": "Комплексные электромонтажные услуги для домов и квартир.",
+
+"service-business-title": "Коммерческие объекты",
+"service-business-text": "Электромонтажные услуги для офисов, магазинов и коммерческих помещений.",
+
+"services-cta-title": "Нужен профессиональный электрик?",
+"services-cta-text": "Свяжитесь с нами уже сегодня.",
 
     "about-title": "О нас",
     "about-text": "Надежные услуги.",
