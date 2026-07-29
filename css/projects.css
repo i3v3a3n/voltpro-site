@@ -70,3 +70,70 @@
 
     color:var(--gray);
 }
+
+
+
+.project-photo{
+    display: flex;
+    flex-direction: column;
+}
+
+.project-photo img{
+    order: 1;
+}
+
+.project-photo h3{
+    order: 2;
+    text-align: center;
+    margin: 12px auto 0;
+    max-width: 90%;
+    color: #fff;
+    line-height: 1.4;
+}
+/* ==========================================
+   PROJECT CATEGORIES
+========================================== */
+
+.project-category{
+
+    width:min(var(--container),92%);
+    margin:80px auto;
+}
+
+.project-category h2{
+
+    margin-bottom:20px;
+    text-align:center;
+}
+
+.project-category p{
+
+    text-align:center;
+    max-width:900px;
+    margin:0 auto 40px;
+}
+
+.project-gallery{
+
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+}
+
+.project-gallery img{
+
+    width:100%;
+    height:auto;
+
+    border-radius:18px;
+
+    display:block;
+
+    transition:.3s;
+}
+
+.project-gallery img:hover{
+
+    transform:scale(1.01);
+}
+
