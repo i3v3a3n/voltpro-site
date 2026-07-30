@@ -116,4 +116,103 @@ if (modalCallBtn && qrSection) {
 
     }
 
+// ==============================
+// HAMBURGER MENU
+// ==============================
+
+const menuToggle = document.querySelector(".menu-toggle");
+const mainNav = document.querySelector(".main-nav");
+
+if (menuToggle && mainNav) {
+
+    menuToggle.addEventListener("click", function (e) {
+
+        e.stopPropagation();
+
+        menuToggle.classList.toggle("active");
+        mainNav.classList.toggle("active");
+
+    });
+
+    document.addEventListener("click", function (e) {
+
+        if (
+            !mainNav.contains(e.target) &&
+            !menuToggle.contains(e.target)
+        ) {
+
+            menuToggle.classList.remove("active");
+            mainNav.classList.remove("active");
+
+        }
+
+    });
+
+    mainNav.querySelectorAll("a").forEach(link => {
+
+        link.addEventListener("click", () => {
+
+            menuToggle.classList.remove("active");
+            mainNav.classList.remove("active");
+
+        });
+
+    });
+
+    document.addEventListener("keydown", function(e){
+
+        if(e.key==="Escape"){
+
+            menuToggle.classList.remove("active");
+            mainNav.classList.remove("active");
+
+        }
+
+    });
+
+    window.addEventListener("resize", function(){
+
+        if(window.innerWidth>1200){
+
+            menuToggle.classList.remove("active");
+            mainNav.classList.remove("active");
+
+        }
+
+    });
+
+}
+
+// ==============================
+// SCROLLED HEADER
+// ==============================
+
+const header = document.querySelector(".main-header");
+
+if (header) {
+
+    function updateHeader() {
+
+        if (window.scrollY > 5) {
+            header.classList.add("scrolled");
+        } else {
+            header.classList.remove("scrolled");
+        }
+
+    }
+
+    updateHeader();
+
+    window.addEventListener("scroll", updateHeader);
+
+}
+
+
 });
+
+
+
+
+
+
+
