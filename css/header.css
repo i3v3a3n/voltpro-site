@@ -285,9 +285,20 @@
 }
 
 @media (max-width:1200px){
+	 .site-logo{
+        height:60px;
+    }
 
+	.right-zone{
+        gap:5px;
+    }
+	.phone{
+        font-size:16px;
+        letter-spacing:0;
+    }
     .main-nav{
         justify-content:flex-start;
+	padding:12px 16px;
     }
 
 }
