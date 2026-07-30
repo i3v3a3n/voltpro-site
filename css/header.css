@@ -3,21 +3,21 @@
 ========================================== */
 
 .main-header{
+
     position:fixed;
     top:0;
     left:0;
 
     width:100%;
 
-    display:grid;
-    grid-template-columns:auto 1fr auto;
-
+    display:flex;
     align-items:center;
+    justify-content:space-between;
 
     padding:20px 60px;
 
     background:transparent;
-		
+
     transition:
         background .35s,
         padding .35s,
@@ -51,7 +51,7 @@
     justify-content:center;
     align-items:center;
     gap:25px;
-
+	margin:0 auto;
     transition:.3s ease;
 }
 
@@ -86,7 +86,7 @@
     gap:18px;
 
     position:relative;
-
+	margin-left:30px;
 }
 
 /* ==========================================
@@ -284,24 +284,6 @@
 
 }
 
-@media (max-width:1200px){
-	 .site-logo{
-        height:60px;
-    }
-
-	.right-zone{
-        gap:5px;
-    }
-	.phone{
-        font-size:16px;
-        letter-spacing:0;
-    }
-    .main-nav{
-        justify-content:flex-start;
-	padding:12px 16px;
-    }
-
-}
 
 
 
