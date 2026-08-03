@@ -207,6 +207,31 @@ if (header) {
 
 }
 
+const phoneToggle = document.getElementById("phoneToggle");
+const phoneDropdown = document.getElementById("phoneDropdown");
+
+if (phoneToggle && phoneDropdown) {
+
+    phoneToggle.addEventListener("click", () => {
+
+        phoneDropdown.classList.toggle("show");
+        phoneToggle.classList.toggle("active");
+
+    });
+
+    document.addEventListener("click", (e) => {
+
+        if (!phoneToggle.contains(e.target) &&
+            !phoneDropdown.contains(e.target)) {
+
+            phoneDropdown.classList.remove("show");
+            phoneToggle.classList.remove("active");
+
+        }
+
+    });
+
+}
 
 });
 

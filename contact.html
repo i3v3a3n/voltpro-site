@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>VoltPro – Електроуслуги</title>
 <link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
 <script>
 (function () {
@@ -48,13 +50,46 @@
   </nav>
 
   <div class="right-zone">
-      <a href="tel:+359879423059"            class="phone" title="Свържи се с VoltPro">0879 423 059</a>
-    <div class="lang-switch">
-      <a href="#" onclick="setLang('bg')">BG</a>
-      <a href="#" onclick="setLang('en')">EN</a>
-      <a href="#" onclick="setLang('ru')">RU</a>
+     <a href="tel:+359879423059"
+   class="phone"
+   title="Свържи се с VoltPro">
+    0879 423 059
+</a>
+
+<div class="phone-wrapper">
+
+    <button class="phone-toggle"
+            id="phoneToggle"
+            aria-label="Phone">
+
+        <i class="fa-solid fa-phone"></i>
+
+    </button>
+
+    <div class="phone-dropdown" id="phoneDropdown">
+
+        <a href="tel:+359879423059">
+            0879 423 059
+        </a>
+
     </div>
-<button class="menu-toggle" aria-label="Menu">
+
+</div>
+
+<div class="lang-switch">
+
+    <a href="#" onclick="setLang('bg')">BG</a>
+
+    <a href="#" onclick="setLang('en')">EN</a>
+
+    <a href="#" onclick="setLang('ru')">RU</a>
+
+</div>
+
+
+
+<button class="menu-toggle"
+        aria-label="Menu">
     <span></span>
     <span></span>
     <span></span>

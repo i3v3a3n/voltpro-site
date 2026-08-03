@@ -284,10 +284,30 @@
 
 }
 
+.phone-toggle{
+    display: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition:.25s;
+}
+.phone-toggle.active i{
+    color:#e53935;
+}
 
+.phone-toggle i{
+    font-size:26px;
+   
+    transition:.25s;
+color:var(--primary);
+}
 
-
-
+.phone-wrapper{
+    position:relative;
+    display:flex;
+    align-items:center;
+}
 
 
 

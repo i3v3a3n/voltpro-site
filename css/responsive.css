@@ -77,13 +77,105 @@
 	 font-size:16px;
 }
 }
-@media (max-width:500px){
+@media (max-width: 500px) {
 
-.phone{
+.hero-text{
+    left: clamp(8px, 4vw, 20px);
+    right: clamp(8px, 4vw, 20px);
+    max-width: none;
+}
+
+.hero-text h1{
+    font-size: clamp(2rem, 7vw, 2.6rem);
+    text-align: left;
+    margin: 0 auto;
+}
+
+.right-zone{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+	margin-left:0;
+}
+.main-header{
+    padding-left: clamp(6px, 3vw, 12px);
+    padding-right: clamp(6px, 3vw, 12px);
+}
+
+    /* Скриваме стария телефон */
+    .phone {
+        display: none;
+    }
+
+
+.lang-switch{
+    gap:6px;
+}
+
+   /* Езиците стават по-големи tyk */
+.lang-switch a {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+    /* Иконата на телефона */
+    .phone-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 42px;
+        height: 42px;
+        font-size: 28px;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    /* Падащият телефон */
+
+    .phone-dropdown{
 
     display:none;
-	 
+    position:absolute;
+
+    top:calc(100% + 8px);
+    left:50%;
+
+    transform:translate(-50%,-8px);
+
+    padding:12px 18px;
+
+    background:rgba(15,15,15,.86);
+
+    border-radius:10px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.35);
+
+    white-space:nowrap;
+
+    z-index:9999;
+
+    opacity:0;
+
+    transition:
+        opacity .25s ease,
+        transform .25s ease;
+
 }
+
+   .phone-dropdown a{
+    color:var(--primary);
+    font-size:22px;
+    font-weight:600;
+    text-decoration:none;
+}
+
+
+    .phone-dropdown.show {
+        display:block;
+        opacity:1;
+        transform:translate(-50%,0);
+    }
+
 }
 
 /* ==========================================
