@@ -308,7 +308,9 @@ color:var(--primary);
     display:flex;
     align-items:center;
 }
-
+.phone-dropdown{
+    display:none;
+}
 
 
 
