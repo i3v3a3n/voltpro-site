@@ -281,6 +281,8 @@
     background: var(--header-bg) !important;
     backdrop-filter: blur(10px);
     box-shadow: 0 15px 40px rgba(0,0,0,.35);
+    padding-top: 3px;
+    padding-bottom: 3px;
 
 }
 

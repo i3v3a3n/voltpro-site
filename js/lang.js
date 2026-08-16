@@ -20,8 +20,25 @@ const translations = {
     "nav-contact": "Контакти",
 
     // INDEX
+
     "hero-title": "Професионални електроуслуги",
     "hero-text": "Работим в София и по Южното Черноморие.",
+
+    "hero-service-emergency": "⚡ Аварийни ремонти",
+    "hero-service-panels": "📋 Електрически табла",
+    "hero-service-outlets": "🔌 Контакти и ключове",
+    "hero-service-lighting": "💡 Осветление",
+    "hero-service-diagnostics": "🔧 Диагностика",
+
+    "hero-problem-no-power": "Нямам ток",
+    "hero-problem-breaker": "Изключва бушона",
+    "hero-problem-outlet": "Контактът не работи",
+    "hero-problem-short-circuit": "Късо съединение",
+    "hero-problem-installation": "Ремонт на електрическа инсталация",
+    "hero-problem-panel": "Смяна на ел. табло",
+    "hero-problem-boiler": "Свързване на бойлер",
+    "hero-problem-emergency": "Електротехник за авария",
+
     "btn-services": "Услуги",
     
     "btn-emergency": "Аварийни",
@@ -34,72 +51,75 @@ const translations = {
     "f3-text": "Гарантирана безопасност.",
 
     // SERVICES
-"services-title": "Електроуслуги",
-"services-subtitle": "Професионални електроуслуги за домове, офиси и бизнес обекти.",
 
-"service-emergency-title": "Аварийни ремонти",
-"service-emergency-text": "Бързо отстраняване на електрически аварии.",
+    "services-title": "Електроуслуги",
+    "services-subtitle": "Професионални електроуслуги за домове, офиси и бизнес обекти.",
 
-"service-lighting-title": "Осветление",
-"service-lighting-text": "Монтаж и ремонт на всички видове осветление.",
+    "service-emergency-title": "Аварийни ремонти",
+    "service-emergency-text": "Бързо отстраняване на електрически аварии.",
 
-"service-switches-title": "Контакти и ключове",
-"service-switches-text": "Смяна, монтаж и диагностика.",
+    "service-lighting-title": "Осветление",
+    "service-lighting-text": "Монтаж и ремонт на всички видове осветление.",
 
-"service-panels-title": "Електрически табла",
-"service-panels-text": "Изграждане, ремонт и модернизация.",
+    "service-switches-title": "Контакти и ключове",
+    "service-switches-text": "Смяна, монтаж и диагностика.",
 
-"service-homes-title": "Домове",
-"service-homes-text": "Цялостни електроуслуги за жилища.",
+    "service-panels-title": "Електрически табла",
+    "service-panels-text": "Изграждане, ремонт и модернизация.",
 
-"service-business-title": "Бизнес",
-"service-business-text": "Електроуслуги за офиси и търговски обекти.",
+    "service-homes-title": "Домове",
+    "service-homes-text": "Цялостни електроуслуги за жилища.",
 
-"services-cta-title": "Нуждаете се от електротехник?",
-"services-cta-text": "Свържете се с нас още днес.",
+    "service-business-title": "Бизнес",
+    "service-business-text": "Електроуслуги за офиси и търговски обекти.",
 
-// PROJECTS
+    "services-cta-title": "Нуждаете се от електротехник?",
+    "services-cta-text": "Свържете се с нас още днес.",
 
-"projects-homes-title": "Домове",
+    // PROJECTS
 
-"projects-homes-text": "Изграждане и ремонт на електроинсталации, монтаж и демонтаж на осветление, бойлери, електроуреди и вградени домакински уреди в жилищни обекти.",
+    "projects-homes-title": "Домове",
 
-"project-homes-001-title": "Монтаж на вградена фурна, плот, контакти и скрито LED осветление с безконтактно управление",
-"project-homes-002-title": "Бойлерно табло 40А, модулен сериен ключ и контакт",
-"project-homes-003-title": "Стара възрожденска къща, преместване на табло и частична електроинсталация",
-"project-homes-006-title": "Централно осветление, луни и скрито LED осветление на три нива",
-"project-homes-007-title": "Цялостна електроинсталация в новострояща се кооперация",
-"projects-lighting-title": "Осветление",
+    "projects-homes-text": "Изграждане и ремонт на електроинсталации, монтаж и демонтаж на осветление, бойлери, електроуреди и вградени домакински уреди в жилищни обекти.",
 
-"projects-lighting-text": "Реализирани проекти по монтаж, подмяна и ремонт на вътрешно и външно осветление. Галерията показва различни решения и крайния резултат от извършената работа.",
-"project-lighting-012-title": "Работим по проекти и изготвяме такива.",
+    "project-homes-001-title": "Монтаж на вградена фурна, плот, контакти и скрито LED осветление с безконтактно управление",
+    "project-homes-002-title": "Бойлерно табло 40А, модулен сериен ключ и контакт",
+    "project-homes-003-title": "Стара възрожденска къща, преместване на табло и частична електроинсталация",
+    "project-homes-006-title": "Централно осветление, луни и скрито LED осветление на три нива",
+    "project-homes-007-title": "Цялостна електроинсталация в новострояща се кооперация",
 
-"projects-switches-title": "Контакти и ключове",
+    "projects-lighting-title": "Осветление",
 
-"projects-switches-text": "Монтаж, подмяна и ремонт на контакти, ключове, разклонители, интелигентни (смарт) системи и други електроинсталационни елементи в жилищни и търговски обекти.",
-"project-switches-002-title": "Модулни ключове и контакти – изграждане, монтаж и демонтаж",
-"projects-panels-title": "Електрически табла",
+    "projects-lighting-text": "Реализирани проекти по монтаж, подмяна и ремонт на вътрешно и външно осветление. Галерията показва различни решения и крайния резултат от извършената работа.",
+    "project-lighting-012-title": "Работим по проекти и изготвяме такива.",
 
-"projects-panels-text": "Проектиране, изработка и монтаж на индивидуални електрически табла по проект, подмяна и модернизация на съществуващи табла, монтаж на защитни устройства и цялостно окабеляване.",
-"project-panels-001-title": "Изготвяме готови електрически табла по поръчка, по проект или по еднолинейна схема",
-"project-panels-002-title": "Главно разпределително табло (ГРТ) по проект. Проектираме и интегрираме всички видове електрически защити. Компонентите могат да бъдат избрани от нас или от клиента.",
-"project-panels-003-title": "Разпределително табло РТ – Салон 1 по проект. Проектираме и вграждаме всички видове електрически защити. Изборът на компонентите може да бъде извършен от нас или от клиента.",
+    "projects-switches-title": "Контакти и ключове",
 
-"projects-emergency-title": "Аварийни ремонти",
+    "projects-switches-text": "Монтаж, подмяна и ремонт на контакти, ключове, разклонители, интелигентни (смарт) системи и други електроинсталационни елементи в жилищни и търговски обекти.",
+    "project-switches-002-title": "Модулни ключове и контакти – изграждане, монтаж и демонтаж",
 
-"projects-emergency-text": "Реално извършени аварийни ремонти, различни видове повреди, процесът по тяхното отстраняване и крайният резултат от извършената работа.",
-"project-emergency-001-title": "Залепнал шалтер. Бойлерът не може нито да се включи, нито да се изключи. Усеща се миризма на изгоряло.",
-"project-emergency-002-title": "След ремонта беше монтирано ново бойлерно табло 40A от по-висок клас, метални конзоли, модулни ключове и контакти. Електроинсталацията беше преработена и модернизирана.",
-"project-emergency-003-title": "Прекъснато електрозахранване. Прегорял неправилно оразмерен захранващ кабел на къща. Подменени са захранващият фидер, рекордоман връзките и електрическото табло.",
-"project-emergency-005-title": "Постоянно прекъсване на електрозахранването. Причината беше неправилно подбран предпазител.",
+    "projects-panels-title": "Електрически табла",
 
-"projects-business-title": "Бизнес",
+    "projects-panels-text": "Проектиране, изработка и монтаж на индивидуални електрически табла по проект, подмяна и модернизация на съществуващи табла, монтаж на защитни устройства и цялостно окабеляване.",
+    "project-panels-001-title": "Изготвяме готови електрически табла по поръчка, по проект или по еднолинейна схема",
+    "project-panels-002-title": "Главно разпределително табло (ГРТ) по проект. Проектираме и интегрираме всички видове електрически защити. Компонентите могат да бъдат избрани от нас или от клиента.",
+    "project-panels-003-title": "Разпределително табло РТ – Салон 1 по проект. Проектираме и вграждаме всички видове електрически защити. Изборът на компонентите може да бъде извършен от нас или от клиента.",
 
-"projects-business-text": "Професионални електроуслуги за офиси, магазини, заведения и търговски обекти – изграждане, поддръжка и модернизация на електроинсталации.",
+    "projects-emergency-title": "Аварийни ремонти",
 
+    "projects-emergency-text": "Реално извършени аварийни ремонти, различни видове повреди, процесът по тяхното отстраняване и крайният резултат от извършената работа.",
+    "project-emergency-001-title": "Залепнал шалтер. Бойлерът не може нито да се включи, нито да се изключи. Усеща се миризма на изгоряло.",
+    "project-emergency-002-title": "След ремонта беше монтирано ново бойлерно табло 40A от по-висок клас, метални конзоли, модулни ключове и контакти. Електроинсталацията беше преработена и модернизирана.",
+    "project-emergency-003-title": "Прекъснато електрозахранване. Прегорял неправилно оразмерен захранващ кабел на къща. Подменени са захранващият фидер, рекордоман връзките и електрическото табло.",
+    "project-emergency-005-title": "Постоянно прекъсване на електрозахранването. Причината беше неправилно подбран предпазител.",
+
+    "projects-business-title": "Бизнес",
+
+    "projects-business-text": "Професионални електроуслуги за офиси, магазини, заведения и търговски обекти – изграждане, поддръжка и модернизация на електроинсталации.",
 
 
     // ABOUT
+
     "about-title": "За нас",
     "about-text": "Надеждни електроуслуги.",
     "about1-title": "Опит",
@@ -110,6 +130,7 @@ const translations = {
     "about3-text": "Бързо обслужване.",
 
     // EMERGENCY
+
     "em-title": "Аварийни",
     "em-text": "Спешна помощ.",
     "em1-title": "Късо съединение",
@@ -122,21 +143,24 @@ const translations = {
     "em-cta-btn": "Обади се",
 
     // CONTACT
+
     "contact-title": "Контакти",
     "contact-text": "Свържете се с нас.",
     "form-title": "Форма",
     "form-btn": "Изпрати",
 
     // Bottom buttons
-	"btn-call": "📞 Обади се",
-	"btn-our-services": "Нашите услуги",
 
-	"modal-title": "Свържете се с VoltPro",
-	"modal-text": "Изберете начин за връзка.",
-	"modal-call": "📞 Обади се",
-	"modal-email": "✉️ Email",
-	"modal-copy": "📋 Копирай номера",
+    "btn-call": "📞 Обади се",
+    "btn-our-services": "Нашите услуги",
+
+    "modal-title": "Свържете се с VoltPro",
+    "modal-text": "Изберете начин за връзка.",
+    "modal-call": "📞 Обади се",
+    "modal-email": "✉️ Email",
+    "modal-copy": "📋 Копирай номера",
   },
+
 
   en: {
 
@@ -157,6 +181,22 @@ const translations = {
 
     "hero-title": "Professional Electrical Services",
     "hero-text": "Operating in Sofia and the Southern Black Sea Coast.",
+
+    "hero-service-emergency": "⚡ Emergency Repairs",
+    "hero-service-panels": "📋 Electrical Panels",
+    "hero-service-outlets": "🔌 Outlets & Switches",
+    "hero-service-lighting": "💡 Lighting",
+    "hero-service-diagnostics": "🔧 Diagnostics",
+
+    "hero-problem-no-power": "No power",
+    "hero-problem-breaker": "Breaker switches off",
+    "hero-problem-outlet": "Outlet not working",
+    "hero-problem-short-circuit": "Short circuit",
+    "hero-problem-installation": "Electrical installation repair",
+    "hero-problem-panel": "Electrical panel replacement",
+    "hero-problem-boiler": "Boiler connection",
+    "hero-problem-emergency": "Emergency electrician",
+
     "btn-services": "Services",
    
     "btn-emergency": "Emergency",
@@ -169,33 +209,34 @@ const translations = {
     "f3-text": "Guaranteed safety.",
 
     // SERVICES
-"services-title": "Electrical Services",
-"services-subtitle": "Professional electrical services for homes, offices, and commercial properties.",
 
-"service-emergency-title": "Emergency Repairs",
-"service-emergency-text": "Fast response to electrical faults and emergencies.",
+    "services-title": "Electrical Services",
+    "services-subtitle": "Professional electrical services for homes, offices, and commercial properties.",
 
-"service-lighting-title": "Lighting",
-"service-lighting-text": "Installation and repair of all types of lighting systems.",
+    "service-emergency-title": "Emergency Repairs",
+    "service-emergency-text": "Fast response to electrical faults and emergencies.",
 
-"service-switches-title": "Sockets & Switches",
-"service-switches-text": "Replacement, installation, and diagnostics.",
+    "service-lighting-title": "Lighting",
+    "service-lighting-text": "Installation and repair of all types of lighting systems.",
 
-"service-panels-title": "Electrical Panels",
-"service-panels-text": "Installation, repair, and modernization of electrical panels.",
+    "service-switches-title": "Sockets & Switches",
+    "service-switches-text": "Replacement, installation, and diagnostics.",
 
-"service-homes-title": "Residential",
-"service-homes-text": "Complete electrical services for houses and apartments.",
+    "service-panels-title": "Electrical Panels",
+    "service-panels-text": "Installation, repair, and modernization of electrical panels.",
 
-"service-business-title": "Commercial",
-"service-business-text": "Electrical services for offices, shops, and commercial premises.",
+    "service-homes-title": "Residential",
+    "service-homes-text": "Complete electrical services for houses and apartments.",
 
-"services-cta-title": "Need a Professional Electrician?",
-"services-cta-text": "Contact us today.",
+    "service-business-title": "Commercial",
+    "service-business-text": "Electrical services for offices, shops, and commercial premises.",
 
-"projects-switches-title": "Sockets and Switches",
+    "services-cta-title": "Need a Professional Electrician?",
+    "services-cta-text": "Contact us today.",
 
-"projects-switches-text": "Installation, replacement and repair of electrical outlets, switches, junction boxes, smart home systems and other electrical installation components for residential and commercial properties.",
+    "projects-switches-title": "Sockets and Switches",
+
+    "projects-switches-text": "Installation, replacement and repair of electrical outlets, switches, junction boxes, smart home systems and other electrical installation components for residential and commercial properties.",
 
 
 
@@ -223,51 +264,54 @@ const translations = {
     "contact-text": "Get in touch.",
     "form-title": "Form",
     "form-btn": "Send",
-	// Bottom buttons
-	"btn-call": "📞 Call",
-	"btn-our-services": "Our Services",
 
-	"modal-title": "Contact VoltPro",
-	"modal-text": "Choose how to contact us.",
-	"modal-call": "📞 Call",
-	"modal-email": "✉️ Email",
-	"modal-copy": "📋 Copy Number",
+    // Bottom buttons
 
-// PROJECTS
-"projects-homes-title": "Homes",
+    "btn-call": "📞 Call",
+    "btn-our-services": "Our Services",
 
-"projects-homes-text": "Installation and renovation of electrical systems, installation and removal of lighting, water heaters, electrical appliances, and built-in household appliances in residential properties.",
+    "modal-title": "Contact VoltPro",
+    "modal-text": "Choose how to contact us.",
+    "modal-call": "📞 Call",
+    "modal-email": "✉️ Email",
+    "modal-copy": "📋 Copy Number",
 
-"project-homes-001-title": "Installation of a built-in oven, cooktop, electrical outlets and concealed LED lighting with touchless control",
+    // PROJECTS
 
-"project-homes-002-title": "40A Water Heater Distribution Board, Modular Double Switch and Power Outlet",
-"project-homes-003-title": "Historic Revival-Period House – Relocation of the Electrical Panel and Partial Electrical Installation",
-"project-homes-006-title": "Central Lighting, Recessed Spotlights and Three-Level Concealed LED Lighting",
-"project-homes-007-title": "Complete Electrical Installation in a Newly Constructed Residential Building",
+    "projects-homes-title": "Homes",
 
-"projects-lighting-title": "Lighting",
+    "projects-homes-text": "Installation and renovation of electrical systems, installation and removal of lighting, water heaters, electrical appliances, and built-in household appliances in residential properties.",
 
-"projects-lighting-text": "Completed projects involving the installation, replacement, and repair of indoor and outdoor lighting systems. The gallery showcases various solutions and the final results of our work.",
-"project-lighting-012-title": "We work on electrical projects and also prepare custom project documentation.",
-"project-switches-002-title": "Modular Switches and Power Outlets – Installation, Assembly and Removal",
+    "project-homes-001-title": "Installation of a built-in oven, cooktop, electrical outlets and concealed LED lighting with touchless control",
 
-"projects-panels-title": "Electrical Panels",
+    "project-homes-002-title": "40A Water Heater Distribution Board, Modular Double Switch and Power Outlet",
+    "project-homes-003-title": "Historic Revival-Period House – Relocation of the Electrical Panel and Partial Electrical Installation",
+    "project-homes-006-title": "Central Lighting, Recessed Spotlights and Three-Level Concealed LED Lighting",
+    "project-homes-007-title": "Complete Electrical Installation in a Newly Constructed Residential Building",
 
-"projects-panels-text": "Design, assembly and installation of custom electrical panels, replacement and modernization of existing panels, installation of protective devices, and complete electrical wiring.",
-"project-panels-001-title": "Custom Electrical Panels Manufactured to Order, Based on Project Documentation or Single-Line Diagrams",
-"project-panels-002-title": "Main Distribution Board (MDB) Built to Design Specifications. We design and integrate all types of electrical protection devices. Components can be selected either by our specialists or by the customer.",
+    "projects-lighting-title": "Lighting",
 
-"project-panels-003-title": "Distribution Board (DB) – Salon 1, Built to Design Specifications. We design and integrate all types of electrical protection devices. Components can be selected either by our specialists or by the customer.",
-"projects-emergency-title": "Emergency Repairs",
+    "projects-lighting-text": "Completed projects involving the installation, replacement, and repair of indoor and outdoor lighting systems. The gallery showcases various solutions and the final results of our work.",
+    "project-lighting-012-title": "We work on electrical projects and also prepare custom project documentation.",
+    "project-switches-002-title": "Modular Switches and Power Outlets – Installation, Assembly and Removal",
 
-"projects-emergency-text": "Real emergency repair projects, various types of electrical faults, the repair process, and the final results of the completed work.",
-"project-emergency-001-title": "Stuck Circuit Breaker. The Water Heater Could Neither Be Switched On nor Off. A Burning Smell Was Present.",
-"project-emergency-002-title": "Following the repair, a new premium 40A water heater distribution board, metal mounting brackets, modular switches and power outlets were installed. The electrical installation was redesigned and upgraded.",
-"project-emergency-003-title": "Power Supply Failure. An undersized house supply cable had burned out. The supply feeder, Recordom connectors and the electrical distribution board were replaced.",
-"project-emergency-005-title": "Repeated Power Outages. The Cause Was an Incorrectly Selected Circuit Breaker.",
-"projects-business-title": "Commercial",
+    "projects-panels-title": "Electrical Panels",
 
-"projects-business-text": "Professional electrical services for offices, retail stores, restaurants and commercial facilities, including electrical installation, maintenance and modernization.",
+    "projects-panels-text": "Design, assembly and installation of custom electrical panels, replacement and modernization of existing panels, installation of protective devices, and complete electrical wiring.",
+    "project-panels-001-title": "Custom Electrical Panels Manufactured to Order, Based on Project Documentation or Single-Line Diagrams",
+    "project-panels-002-title": "Main Distribution Board (MDB) Built to Design Specifications. We design and integrate all types of electrical protection devices. Components can be selected either by our specialists or by the customer.",
+
+    "project-panels-003-title": "Distribution Board (DB) – Salon 1, Built to Design Specifications. We design and integrate all types of electrical protection devices. Components can be selected either by our specialists or by the customer.",
+    "projects-emergency-title": "Emergency Repairs",
+
+    "projects-emergency-text": "Real emergency repair projects, various types of electrical faults, the repair process, and the final results of the completed work.",
+    "project-emergency-001-title": "Stuck Circuit Breaker. The Water Heater Could Neither Be Switched On nor Off. A Burning Smell Was Present.",
+    "project-emergency-002-title": "Following the repair, a new premium 40A water heater distribution board, metal mounting brackets, modular switches and power outlets were installed. The electrical installation was redesigned and upgraded.",
+    "project-emergency-003-title": "Power Supply Failure. An undersized house supply cable had burned out. The supply feeder, Recordom connectors and the electrical distribution board were replaced.",
+    "project-emergency-005-title": "Repeated Power Outages. The Cause Was an Incorrectly Selected Circuit Breaker.",
+    "projects-business-title": "Commercial",
+
+    "projects-business-text": "Professional electrical services for offices, retail stores, restaurants and commercial facilities, including electrical installation, maintenance and modernization.",
 
 
 
@@ -292,6 +336,22 @@ const translations = {
 
     "hero-title": "Профессиональные электросервисы",
     "hero-text": "Работаем в Софии и на Южном побережье.",
+
+    "hero-service-emergency": "⚡ Аварийный ремонт",
+    "hero-service-panels": "📋 Электрические щиты",
+    "hero-service-outlets": "🔌 Розетки и выключатели",
+    "hero-service-lighting": "💡 Освещение",
+    "hero-service-diagnostics": "🔧 Диагностика",
+
+    "hero-problem-no-power": "Нет электричества",
+    "hero-problem-breaker": "Автомат отключается",
+    "hero-problem-outlet": "Розетка не работает",
+    "hero-problem-short-circuit": "Короткое замыкание",
+    "hero-problem-installation": "Ремонт электропроводки",
+    "hero-problem-panel": "Замена электрощита",
+    "hero-problem-boiler": "Подключение бойлера",
+    "hero-problem-emergency": "Электрик для аварийных работ",
+
     "btn-services": "Услуги",
    
     "btn-emergency": "Аварийные",
@@ -303,70 +363,72 @@ const translations = {
     "f3-title": "Качество",
     "f3-text": "Безопасность.",
 
-   // SERVICES
-"services-title": "Электроуслуги",
-"services-subtitle": "Профессиональные электромонтажные услуги для домов, офисов и коммерческих объектов.",
+    // SERVICES
 
-"service-emergency-title": "Аварийный ремонт",
-"service-emergency-text": "Быстрое устранение электрических неисправностей и аварий.",
+    "services-title": "Электроуслуги",
+    "services-subtitle": "Профессиональные электромонтажные услуги для домов, офисов и коммерческих объектов.",
 
-"service-lighting-title": "Освещение",
-"service-lighting-text": "Монтаж и ремонт всех видов освещения.",
+    "service-emergency-title": "Аварийный ремонт",
+    "service-emergency-text": "Быстрое устранение электрических неисправностей и аварий.",
 
-"service-switches-title": "Розетки и выключатели",
-"service-switches-text": "Замена, установка и диагностика.",
+    "service-lighting-title": "Освещение",
+    "service-lighting-text": "Монтаж и ремонт всех видов освещения.",
 
-"service-panels-title": "Электрические щиты",
-"service-panels-text": "Монтаж, ремонт и модернизация электрощитов.",
+    "service-switches-title": "Розетки и выключатели",
+    "service-switches-text": "Замена, установка и диагностика.",
 
-"service-homes-title": "Жилые объекты",
-"service-homes-text": "Комплексные электромонтажные услуги для домов и квартир.",
+    "service-panels-title": "Электрические щиты",
+    "service-panels-text": "Монтаж, ремонт и модернизация электрощитов.",
 
-"service-business-title": "Коммерческие объекты",
-"service-business-text": "Электромонтажные услуги для офисов, магазинов и коммерческих помещений.",
+    "service-homes-title": "Жилые объекты",
+    "service-homes-text": "Комплексные электромонтажные услуги для домов и квартир.",
 
-"services-cta-title": "Нужен профессиональный электрик?",
-"services-cta-text": "Свяжитесь с нами уже сегодня.",
+    "service-business-title": "Коммерческие объекты",
+    "service-business-text": "Электромонтажные услуги для офисов, магазинов и коммерческих помещений.",
 
-// PROJECTS
-"projects-homes-title": "Жилые дома",
+    "services-cta-title": "Нужен профессиональный электрик?",
+    "services-cta-text": "Свяжитесь с нами уже сегодня.",
 
-"projects-homes-text": "Монтаж и ремонт электрических систем, установка и демонтаж освещения, водонагревателей, бытовой техники и встроенных бытовых приборов в жилых объектах.",
+    // PROJECTS
 
-"project-homes-001-title": "Установка встроенного духового шкафа, варочной панели, электрических розеток и скрытого светодиодного освещения с бесконтактным управлением",
-"project-homes-002-title": "Щит для водонагревателя 40A, модульный двухклавишный выключатель и электрическая розетка",
-"project-homes-003-title": "Старинный дом эпохи Болгарского Возрождения — перенос электрического щита и частичная замена электропроводки",
-"project-homes-006-title": "Центральное освещение, встраиваемые светильники и скрытая светодиодная подсветка на трёх уровнях",
-"project-homes-007-title": "Полная электромонтажная система в строящемся многоквартирном жилом доме",
+    "projects-homes-title": "Жилые дома",
 
-"projects-lighting-title": "Освещение",
+    "projects-homes-text": "Монтаж и ремонт электрических систем, установка и демонтаж освещения, водонагревателей, бытовой техники и встроенных бытовых приборов в жилых объектах.",
 
-"projects-lighting-text": "Реализованные проекты по монтажу, замене и ремонту внутреннего и наружного освещения. В галерее представлены различные решения и конечные результаты выполненных работ.",
-"project-lighting-012-title": "Мы работаем по электротехническим проектам, а также разрабатываем проектную документацию.",
+    "project-homes-001-title": "Установка встроенного духового шкафа, варочной панели, электрических розеток и скрытого светодиодного освещения с бесконтактным управлением",
+    "project-homes-002-title": "Щит для водонагревателя 40A, модульный двухклавишный выключатель и электрическая розетка",
+    "project-homes-003-title": "Старинный дом эпохи Болгарского Возрождения — перенос электрического щита и частичная замена электропроводки",
+    "project-homes-006-title": "Центральное освещение, встраиваемые светильники и скрытая светодиодная подсветка на трёх уровнях",
+    "project-homes-007-title": "Полная электромонтажная система в строящемся многоквартирном жилом доме",
 
-"projects-switches-title": "Розетки и выключатели",
+    "projects-lighting-title": "Освещение",
 
-"projects-switches-text": "Монтаж, замена и ремонт электрических розеток, выключателей, распределительных коробок, систем «умный дом» и других элементов электроустановки в жилых и коммерческих объектах.",
-"project-switches-002-title": "Модульные выключатели и розетки — установка, монтаж и демонтаж",
+    "projects-lighting-text": "Реализованные проекты по монтажу, замене и ремонту внутреннего и наружного освещения. В галерее представлены различные решения и конечные результаты выполненных работ.",
+    "project-lighting-012-title": "Мы работаем по электротехническим проектам, а также разрабатываем проектную документацию.",
 
-"projects-panels-title": "Электрические щиты",
+    "projects-switches-title": "Розетки и выключатели",
 
-"projects-panels-text": "Проектирование, сборка и монтаж индивидуальных электрических щитов, замена и модернизация существующих щитов, установка защитных устройств и полная электропроводка.",
-"project-panels-001-title": "Изготовление электрических щитов на заказ по проектной документации или однолинейной электрической схеме",
-"project-panels-002-title": "Главный распределительный щит (ГРЩ) по проекту. Мы проектируем и интегрируем все виды электрических защит. Подбор компонентов осуществляется нами или по выбору заказчика.",
-"project-panels-003-title": "Распределительный щит (РЩ) «Салон 1» по проекту. Мы проектируем и интегрируем все виды электрических защит. Подбор компонентов осуществляется нами или по выбору заказчика.",
+    "projects-switches-text": "Монтаж, замена и ремонт электрических розеток, выключателей, распределительных коробок, систем «умный дом» и других элементов электроустановки в жилых и коммерческих объектах.",
+    "project-switches-002-title": "Модульные выключатели и розетки — установка, монтаж и демонтаж",
 
-"projects-emergency-title": "Аварийный ремонт",
+    "projects-panels-title": "Электрические щиты",
 
-"projects-emergency-text": "Реально выполненные аварийные ремонты, различные виды электрических неисправностей, процесс их устранения и конечный результат выполненных работ.",
-"project-emergency-001-title": "Заклинивший автоматический выключатель. Водонагреватель невозможно было ни включить, ни выключить. Присутствовал запах гари.",
-"project-emergency-002-title": "После ремонта были установлены новый распределительный щит для водонагревателя 40A повышенного класса, металлические кронштейны, модульные выключатели и розетки. Электроустановка была переработана и модернизирована.",
-"project-emergency-003-title": "Прекращение электроснабжения. Сгорел неправильно рассчитанный питающий кабель дома. Были заменены питающий фидер, соединения Recordom и электрический распределительный щит.",
-"project-emergency-005-title": "Постоянные отключения электроснабжения. Причиной оказался неправильно подобранный автоматический выключатель.",
+    "projects-panels-text": "Проектирование, сборка и монтаж индивидуальных электрических щитов, замена и модернизация существующих щитов, установка защитных устройств и полная электропроводка.",
+    "project-panels-001-title": "Изготовление электрических щитов на заказ по проектной документации или однолинейной электрической схеме",
+    "project-panels-002-title": "Главный распределительный щит (ГРЩ) по проекту. Мы проектируем и интегрируем все виды электрических защит. Подбор компонентов осуществляется нами или по выбору заказчика.",
+    "project-panels-003-title": "Распределительный щит (РЩ) «Салон 1» по проекту. Мы проектируем и интегрируем все виды электрических защит. Подбор компонентов осуществляется нами или по выбору заказчика.",
 
-"projects-business-title": "Коммерческие объекты",
+    "projects-emergency-title": "Аварийный ремонт",
 
-"projects-business-text": "Профессиональные электромонтажные услуги для офисов, магазинов, ресторанов и коммерческих объектов: монтаж, обслуживание и модернизация электроустановок.",
+    "projects-emergency-text": "Реально выполненные аварийные ремонты, различные виды электрических неисправностей, процесс их устранения и конечный результат выполненных работ.",
+    "project-emergency-001-title": "Заклинивший автоматический выключатель. Водонагреватель невозможно было ни включить, ни выключить. Присутствовал запах гари.",
+    "project-emergency-002-title": "После ремонта были установлены новый распределительный щит для водонагревателя 40A повышенного класса, металлические кронштейны, модульные выключатели и розетки. Электроустановка была переработана и модернизирована.",
+    "project-emergency-003-title": "Прекращение электроснабжения. Сгорел неправильно рассчитанный питающий кабель дома. Были заменены питающий фидер, соединения Recordom и электрический распределительный щит.",
+    "project-emergency-005-title": "Постоянные отключения электроснабжения. Причиной оказался неправильно подобранный автоматический выключатель.",
+
+    "projects-business-title": "Коммерческие объекты",
+
+    "projects-business-text": "Профессиональные электромонтажные услуги для офисов, магазинов, ресторанов и коммерческих объектов: монтаж, обслуживание и модернизация электроустановок.",
 
 
     "about-title": "О нас",
@@ -394,72 +456,109 @@ const translations = {
     "form-title": "Форма",
     "form-btn": "Отправить",
 
-     // Bottom buttons
-	"btn-call": "📞 Позвонить",
-	"btn-our-services": "Наши услуги",
+    // Bottom buttons
 
-	"modal-title": "Свяжитесь с VoltPro",
-	"modal-text": "Выберите способ связи.",
-	"modal-call": "📞 Позвонить",
-	"modal-email": "✉️ Email",
-	"modal-copy": "📋 Копировать номер",
+    "btn-call": "📞 Позвонить",
+    "btn-our-services": "Наши услуги",
+
+    "modal-title": "Свяжитесь с VoltPro",
+    "modal-text": "Выберите способ связи.",
+    "modal-call": "📞 Позвонить",
+    "modal-email": "✉️ Email",
+    "modal-copy": "📋 Копировать номер",
 
   }
 };
 
+
 function setLang(lang) {
-document.title = {
-  bg: "VoltPro - Електроуслуги",
-  en: "VoltPro - Electrical Services",
-  ru: "VoltPro - Электроуслуги"
-}[lang];
+
+  document.title = {
+    bg: "VoltPro - Електроуслуги",
+    en: "VoltPro - Electrical Services",
+    ru: "VoltPro - Электроуслуги"
+  }[lang];
+
 
   localStorage.setItem("siteLang", lang);
   document.documentElement.lang = lang;
 
+
   for (const key in translations[lang]) {
+
     const el = document.getElementById(key);
+
     if (el) el.innerText = translations[lang][key];
+
   }
 
+
   if (document.getElementById("name")) {
+
     const name = document.getElementById("name");
     const email = document.getElementById("email");
     const company = document.getElementById("company");
     const message = document.getElementById("message");
 
+
     if (lang === "bg") {
+
       name.placeholder = "Име";
       email.placeholder = "Email";
       company.placeholder = "Фирма / Обект (по избор)";
       message.placeholder = "Съобщение";
+
     }
+
+
     if (lang === "en") {
+
       name.placeholder = "Name";
       email.placeholder = "Email";
       company.placeholder = "Company / Location (optional)";
       message.placeholder = "Message";
+
     }
+
+
     if (lang === "ru") {
+
       name.placeholder = "Имя";
       email.placeholder = "Email";
       company.placeholder = "Компания / Объект";
       message.placeholder = "Сообщение";
+
     }
+
   }
-document.documentElement.style.visibility = "visible";
+
+
+  document.documentElement.style.visibility = "visible";
+
 }
 
+
 // Active menu
+
 const currentPage = location.pathname.split("/").pop() || "index.html";
+
 document.querySelectorAll(".nav-link").forEach(link => {
+
   if (link.getAttribute("href") === currentPage) {
+
     link.classList.add("active");
+
   }
+
 });
 
+
 // Load language
+
 document.addEventListener("DOMContentLoaded", () => {
+
   const savedLang = localStorage.getItem("siteLang") || "bg";
+
   setLang(savedLang);
+
 });

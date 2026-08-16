@@ -96,3 +96,73 @@
     background:#fff;
     color:#111;
 }
+
+/* ==========================================
+   HERO SERVICES + SEARCH INTENT
+========================================== */
+
+.hero-services{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px 18px;
+    margin:-18px 0 22px;
+    max-width:900px;
+}
+
+.hero-services span{
+    color:#fff;
+    font-size:16px;
+    font-weight:700;
+    line-height:1.4;
+    white-space:nowrap;
+}
+
+.hero-problems{
+    display:flex;
+    flex-wrap:wrap;
+    gap:7px 14px;
+    margin:-8px 0 28px;
+    max-width:900px;
+}
+
+.hero-problems span{
+    color:rgba(255,255,255,.82);
+    font-size:14px;
+    line-height:1.35;
+}
+
+.hero-problems span:not(:last-child)::after{
+    content:"•";
+    color:var(--primary);
+    margin-left:14px;
+}
+
+
+/* ==========================================
+   HERO - NEW SERVICES & PROBLEMS
+   ========================================== */
+
+.hero-services{
+    font-size:24px;
+    line-height:1.5;
+    font-weight:600;
+}
+
+.hero-problems{
+    font-size:22px;
+    line-height:1.6;
+    font-weight:500;
+}
+
+
+/* ==========================================
+   HERO - ACTUAL TEXT SIZES
+   ========================================== */
+
+.hero-services span{
+    font-size:24px;
+}
+
+.hero-problems span{
+    font-size:22px;
+}

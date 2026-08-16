@@ -4,7 +4,7 @@
 
 .projects{
 
-    padding:180px 20px;
+   padding: 0 20px 180px;
 }
 
 .projects-grid{
@@ -94,10 +94,14 @@
    PROJECT CATEGORIES
 ========================================== */
 
+.project-category:first-of-type {
+    padding-top: 120px;
+}
+
 .project-category{
 
     width:min(var(--container),92%);
-    margin:180px auto 60px;
+    margin: 0 auto 60px;
 }
 
 .project-category h2{
