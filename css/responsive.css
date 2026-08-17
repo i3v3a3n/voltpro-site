@@ -306,10 +306,7 @@ body{
     }
 }
 
-@media (max-width: 900px) and (orientation: landscape) {
-
-    body.home-page {
-        min-height: 115vh;
-    }
-
+/* Скрол за началната страница */
+body.home-page {
+    min-height: 110vh;
 }
