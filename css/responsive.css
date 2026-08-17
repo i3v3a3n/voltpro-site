@@ -110,7 +110,7 @@
 
    /* Езиците стават по-големи tyk */
 .lang-switch a {
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 400;
 }
 
@@ -271,6 +271,9 @@ body{
 /* HERO - LANDSCAPE PHONES */
 @media (max-height: 600px) and (orientation: landscape) {
 
+	.lang-switch a {
+        font-size: 20px;
+    }
     .hero-text {
         position: relative;
         left: auto;
