@@ -305,3 +305,11 @@ body{
         font-size:16px;
     }
 }
+
+@media (max-width: 900px) and (orientation: landscape) {
+
+    body.home-page {
+        min-height: 115vh;
+    }
+
+}
