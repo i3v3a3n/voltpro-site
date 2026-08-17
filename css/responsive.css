@@ -27,11 +27,7 @@
     display:flex;
 }
 
-.phone{
 
-    /*display:none;
-	 font-size:16px;*/
-}
 
 .lang-switch{
 
@@ -210,17 +206,9 @@ body{
         margin:-10px 0 16px;
     }
 
-    .hero-services span{
-        font-size:14px;
-    }
-
     .hero-problems{
         gap:5px 10px;
         margin:-4px 0 20px;
-    }
-
-    .hero-problems span{
-        font-size:12px;
     }
 
     .hero-problems span:not(:last-child)::after{
@@ -234,17 +222,9 @@ body{
         margin:-8px 0 12px;
     }
 
-    .hero-services span{
-        font-size:12px;
-    }
-
     .hero-problems{
         gap:4px 8px;
         margin:0 0 16px;
-    }
-
-    .hero-problems span{
-        font-size:11px;
     }
 
     .hero-problems span:not(:last-child)::after{
@@ -252,41 +232,24 @@ body{
     }
 }
 
-
 /* ==========================================
-   HERO - NEW TEXT RESPONSIVE SIZES
+   HERO - MOBILE
    ========================================== */
 
 @media (max-width:768px){
-    .hero-services{
-        font-size:19px;
-        line-height:1.5;
-    }
+.hero-text {
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
 
-    .hero-problems{
-        font-size:16px;
-        line-height:1.55;
-    }
+    margin-top: 140px;
+    padding: 0 20px 100px;
+    min-height:100vh;
+    max-width: none;
+
 }
-
-@media (max-width:500px){
-    .hero-services{
-        font-size:17px;
-        line-height:1.5;
-    }
-
-    .hero-problems{
-        font-size:15px;
-        line-height:1.55;
-    }
-}
-
-
-/* ==========================================
-   HERO - RESPONSIVE ACTUAL TEXT SIZES
-   ========================================== */
-
-@media (max-width:768px){
     .hero-services span{
         font-size:20px;
     }
@@ -305,8 +268,20 @@ body{
         font-size:16px;
     }
 }
+/* HERO - LANDSCAPE PHONES */
+@media (max-height: 600px) and (orientation: landscape) {
 
-/* Скрол за началната страница */
-body.home-page {
-    min-height: 110vh;
+    .hero-text {
+        position: relative;
+        left: auto;
+        right: auto;
+        top: auto;
+        bottom: auto;
+
+        margin-top: 140px;
+        padding: 0 20px 100px;
+
+        max-width: none;
+    }
+
 }
