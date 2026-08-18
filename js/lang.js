@@ -78,6 +78,8 @@ const translations = {
 
     // PROJECTS
 
+    "projects-page-title": "Обекти и извършени електроуслуги",
+
     "projects-homes-title": "Домове",
 
     "projects-homes-text": "Изграждане и ремонт на електроинсталации, монтаж и демонтаж на осветление, бойлери, електроуреди и вградени домакински уреди в жилищни обекти.",
@@ -118,36 +120,101 @@ const translations = {
     "projects-business-text": "Професионални електроуслуги за офиси, магазини, заведения и търговски обекти – изграждане, поддръжка и модернизация на електроинсталации.",
 
 
-    // ABOUT
+   // ABOUT
 
-    "about-title": "За нас",
-    "about-text": "Надеждни електроуслуги.",
-    "about1-title": "Опит",
-    "about1-text": "Професионален екип.",
-    "about2-title": "Качество",
-    "about2-text": "Сертифицирани материали.",
-    "about3-title": "Реакция",
-    "about3-text": "Бързо обслужване.",
+"about-title": "VoltPro",
+"about-text": "Професионални електроуслуги за домове, офиси и търговски обекти. Извършваме електрически ремонти, диагностика, изграждане и модернизация на електрически инсталации и електрически табла.",
+
+"about1-title": "Опит",
+"about1-text": "Практически опит в електрически ремонти, инсталации и електромонтажни дейности.",
+
+"about2-title": "Качество",
+"about2-text": "Прецизно изпълнение и внимание към детайлите при всеки обект.",
+
+"about3-title": "Реакция",
+"about3-text": "Бърза реакция при електрически повреди и аварийни ситуации.",
+
+"about4-title": "Безопасност",
+"about4-text": "Внимание към безопасността и правилното функциониране на електрическата инсталация.",
+
+"about-person-title": "Кой стои зад VoltPro",
+"about-person-text": "Електроинженер с дългогодишен стаж, трета група електробезопасност. Практически опит в електрическите ремонти, инсталации и електромонтажните дейности. Всеки ремонт се извършва според конкретния проблем, състоянието на инсталацията и особеностите на обекта.",
+
+"about-qualification-title": "Квалификация и професионална подготовка",
+"about-qualification-text": "Електроинженер – бакалавър. Сертификати за професионални обучения от Siemens.",
+
+"about-location-title": "Къде се намираме",
+"about-location-text": "София 1000, ул. Козлодуй 43.",
+
+"about-contact-title": "Контакти",
+"about-contact-text": "За въпроси, консултация или заявка за електроуслуга можете да се свържете с нас по телефон или имейл.",
+
+"about-projects-title": "Реални обекти",
+"about-projects-text": "В галерията можете да разгледате реални електрически работи, които сме извършили по различни обекти.",
+"about-projects-btn": "Виж нашите обекти",
 
     // EMERGENCY
 
-    "em-title": "Аварийни",
-    "em-text": "Спешна помощ.",
-    "em1-title": "Късо съединение",
-    "em1-text": "Незабавна реакция.",
-    "em2-title": "Токови аварии",
-    "em2-text": "Възстановяване.",
-    "em3-title": "Опасни инсталации",
-    "em3-text": "Пълна безопасност.",
-    "em-cta-title": "Спешен ремонт?",
-    "em-cta-btn": "Обади се",
+"em-title": "Електрически аварии и спешни ремонти",
+"em-text": "Имате проблем с електричеството? Изключва бушона, няма ток, късо съединение или контактът не работи? Извършваме диагностика и отстраняване на електрически повреди.",
+
+"em1-title": "Нямам ток",
+"em1-text": "Проверка и откриване на причината за прекъсване на електрозахранването.",
+
+"em2-title": "Изключва бушона",
+"em2-text": "Диагностика при постоянно или периодично изключване на автоматичен предпазител.",
+
+"em3-title": "Късо съединение",
+"em3-text": "Откриване и отстраняване на причината за късо съединение.",
+
+"em4-title": "Контактът не работи",
+"em4-text": "Диагностика и ремонт на повредени контакти и захранващи линии.",
+
+"em5-title": "Електрическа повреда",
+"em5-text": "Диагностика на проблеми в електрическата инсталация и отстраняване на повредата.",
+
+"em6-title": "Опасна електрическа инсталация",
+"em6-text": "Проверка на съмнителни връзки, нагряване, миризма на изгоряло и други опасни повреди.",
+
+
+"em-process-title": "Как работим при авария",
+
+"em-process1-title": "Свързвате се с нас",
+"em-process1-text": "Описвате проблема и какво се случва с електрическата инсталация.",
+
+"em-process2-title": "Диагностика",
+"em-process2-text": "Установяваме причината за повредата и необходимия ремонт.",
+
+"em-process3-title": "Отстраняване",
+"em-process3-text": "Извършваме необходимия ремонт и възстановяваме нормалната работа.",
+
+"em-process4-title": "Проверка",
+"em-process4-text": "Проверяваме извършения ремонт и безопасността на инсталацията.",
+
+"em-cta-title": "Нуждаете се от електротехник?",
+"em-cta-btn": "Обади се",
 
     // CONTACT
 
-    "contact-title": "Контакти",
-    "contact-text": "Свържете се с нас.",
-    "form-title": "Форма",
-    "form-btn": "Изпрати",
+"contact-title": "Контакти",
+"contact-text": "Свържете се с нас за въпроси, консултация или заявка за електроуслуга.",
+
+"contact-phone-title": "Телефон",
+
+"contact-email-title": "Имейл",
+
+"contact-location-title": "Адрес",
+"contact-location-text": "София 1000, ул. Козлодуй 43",
+
+"contact-area-title": "Работим в",
+"contact-area-text": "София / Слънчев бряг / Несебър",
+
+"contact-connect-title": "Свържете се с нас",
+"contact-connect-text": "Изберете удобен за вас начин за връзка.",
+
+"contact-email-btn": "✉️ Email",
+
+"contact-qr-title": "Сканирайте за контакт",
 
     // Bottom buttons
 
@@ -239,31 +306,102 @@ const translations = {
     "projects-switches-text": "Installation, replacement and repair of electrical outlets, switches, junction boxes, smart home systems and other electrical installation components for residential and commercial properties.",
 
 
+// ABOUT
 
-    "about-title": "About Us",
-    "about-text": "Reliable electrical services.",
-    "about1-title": "Experience",
-    "about1-text": "Professional team.",
-    "about2-title": "Quality",
-    "about2-text": "Certified materials.",
-    "about3-title": "Speed",
-    "about3-text": "Fast service.",
+"about-title": "VoltPro",
+"about-text": "Professional electrical services for homes, offices, and commercial properties. We provide electrical repairs, diagnostics, installation, and modernization of electrical systems and electrical panels.",
 
-    "em-title": "Emergency",
-    "em-text": "Immediate response.",
-    "em1-title": "Short circuits",
-    "em1-text": "Immediate fix.",
-    "em2-title": "Power failures",
-    "em2-text": "Restore power.",
-    "em3-title": "Unsafe wiring",
-    "em3-text": "Safety guaranteed.",
-    "em-cta-title": "Emergency?",
-    "em-cta-btn": "Call now",
+"about1-title": "Experience",
+"about1-text": "Practical experience in electrical repairs, installations, and electrical installation work.",
 
-    "contact-title": "Contact",
-    "contact-text": "Get in touch.",
-    "form-title": "Form",
-    "form-btn": "Send",
+"about2-title": "Quality",
+"about2-text": "Precise workmanship and attention to detail on every project.",
+
+"about3-title": "Response",
+"about3-text": "Fast response to electrical faults and emergency situations.",
+
+"about4-title": "Safety",
+"about4-text": "Attention to safety and the proper operation of the electrical installation.",
+
+"about-person-title": "Who Is Behind VoltPro",
+"about-person-text": "Electrical engineer with many years of experience and third-level electrical safety qualification. Practical experience in electrical repairs, installations, and electrical installation work. Every repair is carried out according to the specific problem, the condition of the installation, and the requirements of the project.",
+
+"about-qualification-title": "Qualifications and Professional Training",
+"about-qualification-text": "Bachelor's degree in Electrical Engineering. Certificates from professional training courses by Siemens.",
+
+"about-location-title": "Where We Are Located",
+"about-location-text": "Sofia 1000, 43 Kozloduy St.",
+
+"about-contact-title": "Contact",
+"about-contact-text": "For questions, consultation, or an electrical service request, you can contact us by phone or email.",
+
+"about-projects-title": "Real Projects",
+"about-projects-text": "In the gallery you can see real electrical work that we have carried out on various projects.",
+"about-projects-btn": "View Our Projects",
+
+    // EMERGENCY
+
+"em-title": "Electrical Emergencies and Emergency Repairs",
+"em-text": "Having an electrical problem? Is the breaker switching off, is there no power, a short circuit, or is an outlet not working? We diagnose and repair electrical faults.",
+
+"em1-title": "No Power",
+"em1-text": "Inspection and identification of the cause of the power outage.",
+
+"em2-title": "Breaker Keeps Switching Off",
+"em2-text": "Diagnostics when an automatic circuit breaker switches off repeatedly or intermittently.",
+
+"em3-title": "Short Circuit",
+"em3-text": "Identification and repair of the cause of a short circuit.",
+
+"em4-title": "Outlet Not Working",
+"em4-text": "Diagnostics and repair of faulty outlets and power supply lines.",
+
+"em5-title": "Electrical Fault",
+"em5-text": "Diagnostics of electrical installation problems and repair of the fault.",
+
+"em6-title": "Unsafe Electrical Installation",
+"em6-text": "Inspection of suspicious connections, overheating, burning smells and other dangerous faults.",
+
+
+"em-process-title": "How We Handle an Emergency",
+
+"em-process1-title": "Contact Us",
+"em-process1-text": "Describe the problem and what is happening with the electrical installation.",
+
+"em-process2-title": "Diagnostics",
+"em-process2-text": "We identify the cause of the fault and the required repair.",
+
+"em-process3-title": "Repair",
+"em-process3-text": "We carry out the necessary repair and restore normal operation.",
+
+"em-process4-title": "Final Check",
+"em-process4-text": "We check the completed repair and the safety of the installation.",
+
+"em-cta-title": "Need an Electrician?",
+"em-cta-btn": "Call Now",
+
+    // CONTACT
+
+"contact-title": "Contact",
+"contact-text": "Contact us for questions, consultation, or an electrical service request.",
+
+"contact-phone-title": "Phone",
+
+"contact-email-title": "Email",
+
+"contact-location-title": "Address",
+"contact-location-text": "Sofia 1000, 43 Kozloduy St.",
+
+"contact-area-title": "We Work In",
+"contact-area-text": "Sofia / Sunny Beach / Nessebar",
+
+"contact-connect-title": "Contact Us",
+"contact-connect-text": "Choose the most convenient way to get in touch with us.",
+
+"contact-email-btn": "✉️ Email",
+
+"contact-qr-title": "Scan to Contact",
+
 
     // Bottom buttons
 
@@ -277,6 +415,8 @@ const translations = {
     "modal-copy": "📋 Copy Number",
 
     // PROJECTS
+
+    "projects-page-title": "Electrical Projects and Completed Work",
 
     "projects-homes-title": "Homes",
 
@@ -391,6 +531,8 @@ const translations = {
 
     // PROJECTS
 
+    "projects-page-title": "Электрические объекты и выполненные работы",
+
     "projects-homes-title": "Жилые дома",
 
     "projects-homes-text": "Монтаж и ремонт электрических систем, установка и демонтаж освещения, водонагревателей, бытовой техники и встроенных бытовых приборов в жилых объектах.",
@@ -431,30 +573,101 @@ const translations = {
     "projects-business-text": "Профессиональные электромонтажные услуги для офисов, магазинов, ресторанов и коммерческих объектов: монтаж, обслуживание и модернизация электроустановок.",
 
 
-    "about-title": "О нас",
-    "about-text": "Надежные услуги.",
-    "about1-title": "Опыт",
-    "about1-text": "Профессионалы.",
-    "about2-title": "Качество",
-    "about2-text": "Сертификация.",
-    "about3-title": "Скорость",
-    "about3-text": "Быстро.",
+    // ABOUT
 
-    "em-title": "Аварийные",
-    "em-text": "Срочная помощь.",
-    "em1-title": "Короткое замыкание",
-    "em1-text": "Быстро.",
-    "em2-title": "Отключение",
-    "em2-text": "Восстановление.",
-    "em3-title": "Опасная проводка",
-    "em3-text": "Безопасность.",
-    "em-cta-title": "Срочно?",
-    "em-cta-btn": "Позвонить",
+"about-title": "VoltPro",
+"about-text": "Профессиональные электромонтажные услуги для домов, офисов и коммерческих объектов. Выполняем электрический ремонт, диагностику, монтаж и модернизацию электрических систем и электрических щитов.",
 
-    "contact-title": "Контакты",
-    "contact-text": "Свяжитесь с нами.",
-    "form-title": "Форма",
-    "form-btn": "Отправить",
+"about1-title": "Опыт",
+"about1-text": "Практический опыт в электрическом ремонте, монтаже и электромонтажных работах.",
+
+"about2-title": "Качество",
+"about2-text": "Точное выполнение работ и внимание к деталям на каждом объекте.",
+
+"about3-title": "Реакция",
+"about3-text": "Быстрая реакция на электрические неисправности и аварийные ситуации.",
+
+"about4-title": "Безопасность",
+"about4-text": "Внимание к безопасности и правильной работе электрической установки.",
+
+"about-person-title": "Кто стоит за VoltPro",
+"about-person-text": "Электроинженер с многолетним стажем и третьей группой по электробезопасности. Практический опыт в электрическом ремонте, монтаже и электромонтажных работах. Каждый ремонт выполняется с учетом конкретной проблемы, состояния электроустановки и особенностей объекта.",
+
+"about-qualification-title": "Квалификация и профессиональная подготовка",
+"about-qualification-text": "Степень бакалавра по электротехнике. Сертификаты профессионального обучения Siemens.",
+
+"about-location-title": "Где мы находимся",
+"about-location-text": "София 1000, ул. Козлодуй, 43.",
+
+"about-contact-title": "Контакты",
+"about-contact-text": "По вопросам, для консультации или заказа электрических услуг вы можете связаться с нами по телефону или электронной почте.",
+
+"about-projects-title": "Реальные объекты",
+"about-projects-text": "В галерее вы можете увидеть реальные электрические работы, выполненные нами на различных объектах.",
+"about-projects-btn": "Посмотреть наши объекты",
+
+    // EMERGENCY
+
+"em-title": "Электрические аварии и срочный ремонт",
+"em-text": "Возникла проблема с электричеством? Отключается автомат, нет электричества, произошло короткое замыкание или не работает розетка? Выполняем диагностику и устранение электрических неисправностей.",
+
+"em1-title": "Нет электричества",
+"em1-text": "Проверка и выявление причины отключения электроснабжения.",
+
+"em2-title": "Отключается автомат",
+"em2-text": "Диагностика при постоянном или периодическом отключении автоматического выключателя.",
+
+"em3-title": "Короткое замыкание",
+"em3-text": "Выявление и устранение причины короткого замыкания.",
+
+"em4-title": "Розетка не работает",
+"em4-text": "Диагностика и ремонт неисправных розеток и линий электропитания.",
+
+"em5-title": "Электрическая неисправность",
+"em5-text": "Диагностика проблем в электропроводке и устранение неисправности.",
+
+"em6-title": "Опасная электропроводка",
+"em6-text": "Проверка подозрительных соединений, перегрева, запаха гари и других опасных неисправностей.",
+
+
+"em-process-title": "Как мы работаем при аварии",
+
+"em-process1-title": "Свяжитесь с нами",
+"em-process1-text": "Опишите проблему и что происходит с электропроводкой.",
+
+"em-process2-title": "Диагностика",
+"em-process2-text": "Мы определяем причину неисправности и необходимый ремонт.",
+
+"em-process3-title": "Устранение неисправности",
+"em-process3-text": "Выполняем необходимый ремонт и восстанавливаем нормальную работу.",
+
+"em-process4-title": "Проверка",
+"em-process4-text": "Проверяем выполненный ремонт и безопасность электроустановки.",
+
+"em-cta-title": "Нужен электрик?",
+"em-cta-btn": "Позвонить",
+
+    // CONTACT
+
+"contact-title": "Контакты",
+"contact-text": "Свяжитесь с нами по вопросам, для консультации или заказа электрических услуг.",
+
+"contact-phone-title": "Телефон",
+
+"contact-email-title": "Электронная почта",
+
+"contact-location-title": "Адрес",
+"contact-location-text": "София 1000, ул. Козлодуй, 43",
+
+"contact-area-title": "Работаем в",
+"contact-area-text": "София / Солнечный берег / Несебр",
+
+"contact-connect-title": "Свяжитесь с нами",
+"contact-connect-text": "Выберите удобный для вас способ связи.",
+
+"contact-email-btn": "✉️ Email",
+
+"contact-qr-title": "Отсканируйте QR-код",
 
     // Bottom buttons
 
@@ -473,11 +686,57 @@ const translations = {
 
 function setLang(lang) {
 
-  document.title = {
-    bg: "VoltPro - Електроуслуги",
-    en: "VoltPro - Electrical Services",
-    ru: "VoltPro - Электроуслуги"
-  }[lang];
+  const page = (location.pathname.split("/").pop() || "index.html");
+
+  const seo = {
+    "index.html": {
+      bg: ["VoltPro – Електроуслуги в София и Южното Черноморие", "Професионални електроуслуги, ремонти, диагностика и монтаж за домове, офиси и бизнес обекти в София, Слънчев бряг и Несебър."],
+      en: ["VoltPro – Electrical Services in Sofia and the Southern Black Sea Coast", "Professional electrical repairs, diagnostics and installation for homes, offices and businesses in Sofia, Sunny Beach and Nessebar."],
+      ru: ["VoltPro – Электроуслуги в Софии и на Южном побережье", "Профессиональный ремонт, диагностика и монтаж электрооборудования для домов, офисов и коммерческих объектов в Софии, Солнечном Берегу и Несебре."]
+    },
+    "services.html": {
+      bg: ["Електроуслуги в София | VoltPro", "Електроуслуги за домове, офиси и бизнес обекти: аварийни ремонти, осветление, контакти и ключове, електрически табла и диагностика."],
+      en: ["Electrical Services in Sofia | VoltPro", "Electrical services for homes, offices and businesses: emergency repairs, lighting, outlets and switches, electrical panels and diagnostics."],
+      ru: ["Электроуслуги в Софии | VoltPro", "Электроуслуги для домов, офисов и коммерческих объектов: аварийный ремонт, освещение, розетки и выключатели, электрощиты и диагностика."]
+    },
+    "emergency.html": {
+      bg: ["Електрически аварии и спешен ремонт | VoltPro", "Диагностика и отстраняване на електрически аварии: няма ток, изключва бушон, късо съединение, повредени контакти и опасни електрически инсталации."],
+      en: ["Electrical Emergencies and Repairs | VoltPro", "Electrical emergency diagnostics and repairs: no power, tripped breakers, short circuits, faulty outlets and unsafe electrical installations."],
+      ru: ["Электрические аварии и срочный ремонт | VoltPro", "Диагностика и устранение электрических аварий: нет электричества, отключается автомат, короткое замыкание, неисправные розетки и опасная проводка."]
+    },
+    "projects.html": {
+      bg: ["Електрически обекти и проекти | VoltPro", "Разгледайте реални електрически обекти и извършени от нас ремонти, монтажи, осветление, електрически табла и аварийни ремонти."],
+      en: ["Electrical Projects and Completed Work | VoltPro", "See real electrical projects and completed work including repairs, installations, lighting, electrical panels and emergency repairs."],
+      ru: ["Электрические объекты и выполненные проекты | VoltPro", "Посмотрите реальные электрические объекты и выполненные работы: ремонт, монтаж, освещение, электрощиты и аварийные ремонты."]
+    },
+    "about.html": {
+      bg: ["За нас | VoltPro", "Научете повече за VoltPro, квалификацията, опита и начина ни на работа при електрически ремонти, инсталации и монтажни дейности."],
+      en: ["About Us | VoltPro", "Learn more about VoltPro, our qualifications, experience and approach to electrical repairs, installations and electrical work."],
+      ru: ["О нас | VoltPro", "Узнайте больше о VoltPro, квалификации, опыте и подходе к электрическому ремонту, монтажу и электромонтажным работам."]
+    },
+    "contact.html": {
+      bg: ["Контакти | VoltPro", "Свържете се с VoltPro за електроуслуга, консултация или ремонт. Телефон 0879 423 059, имейл и адрес в София."],
+      en: ["Contact | VoltPro", "Contact VoltPro for electrical services, consultation or repairs. Phone +359 879 423 059, email and address in Sofia."],
+      ru: ["Контакты | VoltPro", "Свяжитесь с VoltPro для заказа электрических услуг, консультации или ремонта. Телефон +359 879 423 059, электронная почта и адрес в Софии."]
+    }
+  };
+
+  const seoData = (seo[page] || seo["index.html"])[lang];
+  document.title = seoData[0];
+
+  const description = document.querySelector('meta[name="description"]');
+  if (description) description.setAttribute("content", seoData[1]);
+
+  const ogTitle = document.querySelector('meta[property="og:title"]');
+  const ogDescription = document.querySelector('meta[property="og:description"]');
+  const ogLocale = document.querySelector('meta[property="og:locale"]');
+  const twitterTitle = document.querySelector('meta[name="twitter:title"]');
+  const twitterDescription = document.querySelector('meta[name="twitter:description"]');
+  if (ogTitle) ogTitle.setAttribute("content", seoData[0]);
+  if (ogDescription) ogDescription.setAttribute("content", seoData[1]);
+  if (ogLocale) ogLocale.setAttribute("content", lang === "bg" ? "bg_BG" : lang === "ru" ? "ru_RU" : "en_GB");
+  if (twitterTitle) twitterTitle.setAttribute("content", seoData[0]);
+  if (twitterDescription) twitterDescription.setAttribute("content", seoData[1]);
 
 
   localStorage.setItem("siteLang", lang);
@@ -491,6 +750,20 @@ function setLang(lang) {
     if (el) el.innerText = translations[lang][key];
 
   }
+
+  document.querySelectorAll(".project-photo").forEach((photo) => {
+    const image = photo.querySelector("img");
+    const heading = photo.querySelector("h3");
+    if (!image) return;
+    const text = heading ? heading.textContent.trim() : "";
+    if (text) {
+      image.alt = text;
+    } else {
+      const section = photo.closest(".project-category");
+      const sectionName = section ? section.querySelector("h2")?.textContent.trim() : "";
+      image.alt = sectionName ? `${sectionName} – реален електрически обект` : "Реален електрически обект";
+    }
+  });
 
 
   if (document.getElementById("name")) {

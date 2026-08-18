@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="bg">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>VoltPro – Електроуслуги</title>
+
+<title>Електрически аварии и спешен ремонт | VoltPro</title>
+
 <link rel="stylesheet" href="css/styles.css">
+
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
@@ -19,167 +24,539 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 <script src="js/lang.js" defer></script>
 <script src="js/script.js" defer></script>
 
+
+<meta name="description" content="Диагностика и отстраняване на електрически аварии: няма ток, изключва бушон, късо съединение, повредени контакти и опасни електрически инсталации.">
+<link rel="canonical" href="https://voltpro.bg/emergency.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="VoltPro">
+<meta property="og:title" content="Електрически аварии и спешен ремонт | VoltPro">
+<meta property="og:description" content="Диагностика и отстраняване на електрически аварии: няма ток, изключва бушон, късо съединение, повредени контакти и опасни електрически инсталации.">
+<meta property="og:url" content="https://voltpro.bg/emergency.html">
+<meta property="og:image" content="https://voltpro.bg/images/logo.png">
+<meta property="og:image:alt" content="VoltPro – електроуслуги">
+<meta property="og:locale" content="bg_BG">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Електрически аварии и спешен ремонт | VoltPro">
+<meta name="twitter:description" content="Диагностика и отстраняване на електрически аварии: няма ток, изключва бушон, късо съединение, повредени контакти и опасни електрически инсталации.">
+<meta name="twitter:image" content="https://voltpro.bg/images/logo.png">
+
+    <link rel="icon" href="favicon.ico">
 </head>
+
 
 <body>
 
+
+<!-- BACKGROUND -->
+
 <div class="slider">
+
     <div class="slide slide1"></div>
     <div class="slide slide2"></div>
     <div class="slide slide3"></div>
 
     <div class="overlay"></div>
+
 </div>
+
+
+<!-- HEADER -->
 
 <header class="main-header">
 
-  <a href="index.html" class="logo-link" title="VoltPro Електроуслуги">
-    <img src="images/logo.png" class="site-logo" alt="VoltPro">
-  </a>
+    <a href="index.html"
+       class="logo-link"
+       title="VoltPro Електроуслуги">
 
-  <nav class="main-nav">
-    <a href="services.html" id="nav-services">Услуги</a>
-    
-    <a href="emergency.html" id="nav-emergency">Аварийни</a>
-    <a href="projects.html" id="nav-projects">Обекти</a>
-    <a href="about.html" id="nav-about">За нас</a>
-    <a href="contact.html" id="nav-contact">Контакти</a>
-    
-   
+        <img src="images/logo.png"
+             class="site-logo"
+             alt="VoltPro">
 
-  </nav>
+    </a>
 
-  <div class="right-zone">
-      <a href="tel:+359879423059"
-   class="phone"
-   title="Свържи се с VoltPro">
-    0879 423 059
-</a>
 
-<div class="phone-wrapper">
+    <nav class="main-nav">
 
-    <button class="phone-toggle"
-            id="phoneToggle"
-            aria-label="Phone">
-
-        <i class="fa-solid fa-phone"></i>
-
-    </button>
-
-    <div class="phone-dropdown" id="phoneDropdown">
-
-        <a href="tel:+359879423059">
-            0879 423 059
+        <a href="services.html" id="nav-services">
+            Услуги
         </a>
+
+        <a href="emergency.html" id="nav-emergency">
+            Аварийни
+        </a>
+
+        <a href="projects.html" id="nav-projects">
+            Обекти
+        </a>
+
+        <a href="about.html" id="nav-about">
+            За нас
+        </a>
+
+        <a href="contact.html" id="nav-contact">
+            Контакти
+        </a>
+
+    </nav>
+
+
+    <div class="right-zone">
+
+
+        <a href="tel:+359879423059"
+           class="phone"
+           title="Свържи се с VoltPro">
+
+            0879 423 059
+
+        </a>
+
+
+        <div class="phone-wrapper">
+
+            <button class="phone-toggle"
+                    id="phoneToggle"
+                    aria-label="Phone">
+
+                <i class="fa-solid fa-phone"></i>
+
+            </button>
+
+
+            <div class="phone-dropdown"
+                 id="phoneDropdown">
+
+                <a href="tel:+359879423059">
+                    0879 423 059
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="lang-switch">
+
+            <a href="#" onclick="setLang('bg')">
+                BG
+            </a>
+
+            <a href="#" onclick="setLang('en')">
+                EN
+            </a>
+
+            <a href="#" onclick="setLang('ru')">
+                RU
+            </a>
+
+        </div>
+
+
+        <button class="menu-toggle"
+                aria-label="Menu">
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
+
 
     </div>
 
-</div>
-
-<div class="lang-switch">
-
-    <a href="#" onclick="setLang('bg')">BG</a>
-
-    <a href="#" onclick="setLang('en')">EN</a>
-
-    <a href="#" onclick="setLang('ru')">RU</a>
-
-</div>
-
-
-
-<button class="menu-toggle"
-        aria-label="Menu">
-    <span></span>
-    <span></span>
-    <span></span>
-</button>
-  </div>
-
 </header>
-<main class="page-content">
 
-    <!-- Тук ще идва съдържанието на страницата -->
+
+
+<!-- MAIN CONTENT -->
+
+<main class="services-page">
+
+
+    <!-- PAGE HEADER -->
+
+    <section class="page-header">
+
+        <div class="container">
+
+            <h1 id="em-title">
+                Електрически аварии и спешни ремонти
+            </h1>
+
+            <p id="em-text">
+                Имате проблем с електричеството? Изключва бушона,
+                няма ток, има късо съединение или контактът не работи?
+                Извършваме диагностика и отстраняване на електрически повреди.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- EMERGENCY SERVICES -->
+
+    <section class="services">
+
+        <div class="container">
+
+            <div class="services-grid">
+
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        ⚡
+                    </div>
+
+                    <h3 id="em1-title">
+                        Нямам ток
+                    </h3>
+
+                    <p id="em1-text">
+                        Проверка и откриване на причината
+                        за прекъсване на електрозахранването.
+                    </p>
+
+                </div>
+
+
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        🔌
+                    </div>
+
+                    <h3 id="em2-title">
+                        Изключва бушона
+                    </h3>
+
+                    <p id="em2-text">
+                        Диагностика при постоянно или периодично
+                        изключване на автоматичен предпазител.
+                    </p>
+
+                </div>
+
+
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        ⚠️
+                    </div>
+
+                    <h3 id="em3-title">
+                        Късо съединение
+                    </h3>
+
+                    <p id="em3-text">
+                        Откриване и отстраняване на причината
+                        за късо съединение.
+                    </p>
+
+                </div>
+
+
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        🔧
+                    </div>
+
+                    <h3 id="em4-title">
+                        Контактът не работи
+                    </h3>
+
+                    <p id="em4-text">
+                        Диагностика и ремонт на повредени
+                        контакти и захранващи линии.
+                    </p>
+
+                </div>
+
+
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        💡
+                    </div>
+
+                    <h3 id="em5-title">
+                        Електрическа повреда
+                    </h3>
+
+                    <p id="em5-text">
+                        Диагностика на проблеми в електрическата
+                        инсталация и отстраняване на повредата.
+                    </p>
+
+                </div>
+
+
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        🛠️
+                    </div>
+
+                    <h3 id="em6-title">
+                        Опасна електрическа инсталация
+                    </h3>
+
+                    <p id="em6-text">
+                        Проверка на съмнителни връзки, нагряване,
+                        миризма на изгоряло и други опасни повреди.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- HOW WE WORK -->
+
+    <section class="services">
+
+        <div class="container">
+
+            <div class="page-header">
+
+                <h2 id="em-process-title">
+                    Как работим при авария
+                </h2>
+
+            </div>
+
+
+            <div class="services-grid">
+
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        1️⃣
+                    </div>
+
+                    <h3 id="em-process1-title">
+                        Свързвате се с нас
+                    </h3>
+
+                    <p id="em-process1-text">
+                        Описвате проблема и какво се случва
+                        с електрическата инсталация.
+                    </p>
+
+                </div>
+
+
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        2️⃣
+                    </div>
+
+                    <h3 id="em-process2-title">
+                        Диагностика
+                    </h3>
+
+                    <p id="em-process2-text">
+                        Установяваме причината за повредата
+                        и необходимия ремонт.
+                    </p>
+
+                </div>
+
+
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        3️⃣
+                    </div>
+
+                    <h3 id="em-process3-title">
+                        Отстраняване
+                    </h3>
+
+                    <p id="em-process3-text">
+                        Извършваме необходимия ремонт
+                        и възстановяваме нормалната работа.
+                    </p>
+
+                </div>
+
+
+
+                <div class="service-card">
+
+                    <div class="service-icon">
+                        4️⃣
+                    </div>
+
+                    <h3 id="em-process4-title">
+                        Проверка
+                    </h3>
+
+                    <p id="em-process4-text">
+                        Проверяваме извършения ремонт
+                        и безопасността на инсталацията.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- CTA -->
+
+    <section class="services-cta">
+
+        <div class="container">
+
+            <h2 id="services-cta-title">
+                Нуждаете се от електротехник?
+            </h2>
+
+            <p id="services-cta-text">
+                Свържете се с нас още днес.
+            </p>
+
+            <a href="#"
+               id="callBtn"
+               class="btn btn-primary">
+
+                <span id="btn-call">
+                    📞 Обади се
+                </span>
+
+            </a>
+
+        </div>
+
+    </section>
+
 
 </main>
 
-<section class="services-cta">
 
-    <div class="container">
 
-        <h2 id="services-cta-title">
-            Нуждаете се от електротехник?
-        </h2>
-
-        <p id="services-cta-text">
-            Свържете се с нас още днес.
-        </p>
-
-        <a href="#" id="callBtn" class="btn btn-primary">
-            <span id="btn-call">📞 Обади се</span>
-        </a>
-
-    </div>
-
-</section>
+<!-- CONTACT MODAL -->
 
 <script>
+const slides = document.querySelectorAll(".slide");
 
-const slides=document.querySelectorAll(".slide");
-
-let current=0;
+let current = 0;
 
 slides[current].classList.add("active");
 
-setInterval(()=>{
+setInterval(() => {
 
     slides[current].classList.remove("active");
 
-    current=(current+1)%slides.length;
+    current = (current + 1) % slides.length;
 
     slides[current].classList.add("active");
 
-},6000); 
-
+}, 6000);
 </script>
-<div id="contactModal" class="contact-modal">
+
+<div id="contactModal"
+     class="contact-modal">
 
     <div class="contact-box">
 
-        <span class="close-modal">&times;</span>
+        <span class="close-modal">
+            &times;
+        </span>
 
-        <h2 id="modal-title">Свържете се с VoltPro</h2>
 
-        <p id="modal-text">Изберете начин за връзка.</p>
+        <h2 id="modal-title">
+            Свържете се с VoltPro
+        </h2>
 
-        <a href="#" class="btn btn-primary" id="modalCallBtn">
-    		<span id="modal-call">📞 Обади се</span>
-	</a>
 
-	<div id="qrSection" class="qr-section">
+        <p id="modal-text">
+            Изберете начин за връзка.
+        </p>
 
-    		<img src="images/phone-qr.png" alt="QR код">
 
-    		<div class="phone-number">
-       			 +359 879 423 059
-    		</div>
+        <a href="#"
+           class="btn btn-primary"
+           id="modalCallBtn">
 
-	</div>
+            <span id="modal-call">
+                📞 Обади се
+            </span>
 
-        <a href="viber://chat?number=%2B359879423059" class="btn btn-secondary">
+        </a>
+
+
+        <div id="qrSection"
+             class="qr-section">
+
+            <img src="images/phone-qr.png"
+                 alt="QR код за телефон 0879 423 059">
+
+
+            <div class="phone-number">
+                +359 879 423 059
+            </div>
+
+        </div>
+
+
+        <a href="viber://chat?number=%2B359879423059"
+           class="btn btn-secondary">
+
             💜 Viber
+
         </a>
 
-        <a href="mailto:voltpro.contacts@gmail.com" class="btn btn-secondary">
-           <span id="modal-email">✉️ Email</span>
+
+        <a href="mailto:voltpro.contacts@gmail.com"
+           class="btn btn-secondary">
+
+            <span id="modal-email">
+                ✉️ Email
+            </span>
+
         </a>
 
-       <button id="copyNumber" class="btn btn-secondary">
-    	   <span id="modal-copy">📋 Копирай номера</span>
-       </button>
+
+        <button id="copyNumber"
+                class="btn btn-secondary">
+
+            <span id="modal-copy">
+                📋 Копирай номера
+            </span>
+
+        </button>
+
 
     </div>
 
 </div>
+
+
 </body>
+
 </html>

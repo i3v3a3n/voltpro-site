@@ -9,33 +9,61 @@ document.addEventListener("DOMContentLoaded", () => {
     // ==============================
 
     const callBtn = document.getElementById("callBtn");
-    const modal = document.getElementById("contactModal");
+const modal = document.getElementById("contactModal");
 
 const modalCallBtn = document.getElementById("modalCallBtn");
 const qrSection = document.getElementById("qrSection");
 
-    if (callBtn && modal) {
+if (callBtn && modal) {
 
-        callBtn.addEventListener("click", function (e) {
+    callBtn.addEventListener("click", function (e) {
 
-            e.preventDefault();
+        e.preventDefault();
 
-            const mobile =
-                /Android|iPhone|iPad|iPod|Windows Phone/i.test(navigator.userAgent);
+        const mobile =
+            /Android|iPhone|iPad|iPod|Windows Phone/i.test(navigator.userAgent);
 
-            if (mobile) {
+        if (mobile) {
 
-                window.location.href = "tel:+359879423059";
+            window.location.href = "tel:+359879423059";
+
+        } else {
+
+            const isContactPage =
+                window.location.pathname.endsWith("/contact.html") ||
+                window.location.pathname.endsWith("contact.html");
+
+            if (isContactPage) {
+
+                /* На контактната страница показваме само QR кода */
+
+                modal.classList.add("show");
+
+                if (modalCallBtn) {
+                    modalCallBtn.style.display = "none";
+                }
+
+                if (qrSection) {
+                    qrSection.style.display = "block";
+                }
+
+                modal.querySelectorAll(".btn-secondary").forEach(function (btn) {
+                    btn.style.display = "none";
+                });
 
             } else {
+
+                /* Всички останали страници остават както са */
 
                 modal.classList.add("show");
 
             }
 
-        });
+        }
 
-    }
+    });
+
+}
 
 
     // ==============================
