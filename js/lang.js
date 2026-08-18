@@ -45,8 +45,6 @@ const translations = {
 
     "f1-title": "Бърза реакция",
     "f1-text": "Аварийни ремонти",
-    "f2-title": "За дома и бизнеса заглавие",
-    "f2-text": "Текст",
     "f3-title": "Професионално качество",
     "f3-text": "Гарантирана безопасност.",
 
@@ -77,8 +75,6 @@ const translations = {
     "services-cta-text": "Свържете се с нас още днес.",
 
     // PROJECTS
-
-    "projects-page-title": "Обекти и извършени електроуслуги",
 
     "projects-homes-title": "Домове",
 
@@ -270,8 +266,6 @@ const translations = {
 
     "f1-title": "Fast Response",
     "f1-text": "Emergency service",
-    "f2-title": "Home & Business",
-    "f2-text": "Home & Business",
     "f3-title": "Professional Quality",
     "f3-text": "Guaranteed safety.",
 
@@ -416,8 +410,6 @@ const translations = {
 
     // PROJECTS
 
-    "projects-page-title": "Electrical Projects and Completed Work",
-
     "projects-homes-title": "Homes",
 
     "projects-homes-text": "Installation and renovation of electrical systems, installation and removal of lighting, water heaters, electrical appliances, and built-in household appliances in residential properties.",
@@ -498,8 +490,6 @@ const translations = {
 
     "f1-title": "Быстрая реакция",
     "f1-text": "Помощь",
-    "f2-title": "Дом и бизнес",
-    "f2-text": "Частные и бизнес.",
     "f3-title": "Качество",
     "f3-text": "Безопасность.",
 
@@ -530,8 +520,6 @@ const translations = {
     "services-cta-text": "Свяжитесь с нами уже сегодня.",
 
     // PROJECTS
-
-    "projects-page-title": "Электрические объекты и выполненные работы",
 
     "projects-homes-title": "Жилые дома",
 
