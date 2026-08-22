@@ -5,6 +5,39 @@
 document.addEventListener("DOMContentLoaded", () => {
 
     // ==============================
+    // VOLTPRO VISITOR TRACKER
+    // ==============================
+
+    try {
+        const trackerUrl =
+            "https://voltpro-tracker.voltpro-contacts.workers.dev/";
+
+        const gclid =
+            new URLSearchParams(window.location.search).get("gclid");
+
+        // Само едно отчитане за една браузърна сесия
+        if (!sessionStorage.getItem("voltpro_tracked")) {
+
+            const url = new URL(trackerUrl);
+
+            if (gclid) {
+                url.searchParams.set("gclid", gclid);
+            }
+
+            fetch(url.toString(), {
+                method: "GET",
+                mode: "cors",
+                keepalive: true
+            }).catch(() => {});
+
+            sessionStorage.setItem("voltpro_tracked", "1");
+        }
+
+    } catch (e) {
+        // Tracker-ът не трябва да пречи на сайта
+    }
+
+    // ==============================
     // CALL BUTTON
     // ==============================
 
